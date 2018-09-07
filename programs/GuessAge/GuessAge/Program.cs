@@ -19,6 +19,11 @@ namespace GuessAgeApp
             Console.WriteLine("  2. Double the result of step 1.");
             Console.WriteLine("  3. Add your age to the result of step 2.");
             Console.WriteLine("  4. Subtract 18 from the result of step 3.");
+
+            // Prompt the user for the magic number and read the number from the keyboard.
+            Console.Write("Enter your magic number: ");
+            inString = Console.ReadLine();
+            num = int.Parse(inString);
         }
     }
 }
