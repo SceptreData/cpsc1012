@@ -1,0 +1,10 @@
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\VariableDemo\VariableDemo\bin\Debug\netcoreapp2.0\VariableDemo.deps.json
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\VariableDemo\VariableDemo\bin\Debug\netcoreapp2.0\VariableDemo.runtimeconfig.json
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\VariableDemo\VariableDemo\bin\Debug\netcoreapp2.0\VariableDemo.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\VariableDemo\VariableDemo\bin\Debug\netcoreapp2.0\VariableDemo.dll
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\VariableDemo\VariableDemo\bin\Debug\netcoreapp2.0\VariableDemo.pdb
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\VariableDemo\VariableDemo\obj\Debug\netcoreapp2.0\VariableDemo.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\VariableDemo\VariableDemo\obj\Debug\netcoreapp2.0\VariableDemo.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\VariableDemo\VariableDemo\obj\Debug\netcoreapp2.0\VariableDemo.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\VariableDemo\VariableDemo\obj\Debug\netcoreapp2.0\VariableDemo.dll
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\VariableDemo\VariableDemo\obj\Debug\netcoreapp2.0\VariableDemo.pdb

@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\ConsoleWritingDemo\ConsoleWritingDemo\bin\Debug\netcoreapp2.0\ConsoleWritingDemo.deps.json
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\ConsoleWritingDemo\ConsoleWritingDemo\bin\Debug\netcoreapp2.0\ConsoleWritingDemo.runtimeconfig.json
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\ConsoleWritingDemo\ConsoleWritingDemo\bin\Debug\netcoreapp2.0\ConsoleWritingDemo.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\ConsoleWritingDemo\ConsoleWritingDemo\bin\Debug\netcoreapp2.0\ConsoleWritingDemo.dll
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\ConsoleWritingDemo\ConsoleWritingDemo\bin\Debug\netcoreapp2.0\ConsoleWritingDemo.pdb
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\ConsoleWritingDemo\ConsoleWritingDemo\obj\Debug\netcoreapp2.0\ConsoleWritingDemo.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\ConsoleWritingDemo\ConsoleWritingDemo\obj\Debug\netcoreapp2.0\ConsoleWritingDemo.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\ConsoleWritingDemo\ConsoleWritingDemo\obj\Debug\netcoreapp2.0\ConsoleWritingDemo.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\ConsoleWritingDemo\ConsoleWritingDemo\obj\Debug\netcoreapp2.0\ConsoleWritingDemo.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\ConsoleWritingDemo\ConsoleWritingDemo\obj\Debug\netcoreapp2.0\ConsoleWritingDemo.dll
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\ConsoleWritingDemo\ConsoleWritingDemo\obj\Debug\netcoreapp2.0\ConsoleWritingDemo.pdb

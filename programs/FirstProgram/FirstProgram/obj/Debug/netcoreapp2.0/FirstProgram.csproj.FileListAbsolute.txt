@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\FirstProgram\FirstProgram\bin\Debug\netcoreapp2.0\FirstProgram.deps.json
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\FirstProgram\FirstProgram\bin\Debug\netcoreapp2.0\FirstProgram.runtimeconfig.json
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\FirstProgram\FirstProgram\bin\Debug\netcoreapp2.0\FirstProgram.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\FirstProgram\FirstProgram\bin\Debug\netcoreapp2.0\FirstProgram.dll
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\FirstProgram\FirstProgram\bin\Debug\netcoreapp2.0\FirstProgram.pdb
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\FirstProgram\FirstProgram\obj\Debug\netcoreapp2.0\FirstProgram.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\FirstProgram\FirstProgram\obj\Debug\netcoreapp2.0\FirstProgram.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\FirstProgram\FirstProgram\obj\Debug\netcoreapp2.0\FirstProgram.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\FirstProgram\FirstProgram\obj\Debug\netcoreapp2.0\FirstProgram.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\FirstProgram\FirstProgram\obj\Debug\netcoreapp2.0\FirstProgram.dll
+C:\Users\dbergeron2\Documents\david\cpsc1012\programs\FirstProgram\FirstProgram\obj\Debug\netcoreapp2.0\FirstProgram.pdb
