@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeHeart", "TakeHeart\TakeHeart.csproj", "{80D66093-D0A6-4344-99C1-FD33C8C9F6EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80D66093-D0A6-4344-99C1-FD33C8C9F6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D66093-D0A6-4344-99C1-FD33C8C9F6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D66093-D0A6-4344-99C1-FD33C8C9F6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D66093-D0A6-4344-99C1-FD33C8C9F6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2C3B944-C558-4C39-A599-00C58E40C979}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AverageVelocity\AverageVelocity\bin\Debug\netcoreapp2.0\AverageVelocity.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AverageVelocity\AverageVelocity\bin\Debug\netcoreapp2.0\AverageVelocity.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AverageVelocity\AverageVelocity\bin\Debug\netcoreapp2.0\AverageVelocity.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AverageVelocity\AverageVelocity\bin\Debug\netcoreapp2.0\AverageVelocity.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AverageVelocity\AverageVelocity\bin\Debug\netcoreapp2.0\AverageVelocity.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AverageVelocity\AverageVelocity\obj\Debug\netcoreapp2.0\AverageVelocity.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AverageVelocity\AverageVelocity\obj\Debug\netcoreapp2.0\AverageVelocity.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AverageVelocity\AverageVelocity\obj\Debug\netcoreapp2.0\AverageVelocity.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AverageVelocity\AverageVelocity\obj\Debug\netcoreapp2.0\AverageVelocity.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AverageVelocity\AverageVelocity\obj\Debug\netcoreapp2.0\AverageVelocity.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AverageVelocity\AverageVelocity\obj\Debug\netcoreapp2.0\AverageVelocity.pdb

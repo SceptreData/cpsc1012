@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\TakeHeart\TakeHeart\bin\Debug\netcoreapp2.0\TakeHeart.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\TakeHeart\TakeHeart\bin\Debug\netcoreapp2.0\TakeHeart.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\TakeHeart\TakeHeart\bin\Debug\netcoreapp2.0\TakeHeart.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\TakeHeart\TakeHeart\bin\Debug\netcoreapp2.0\TakeHeart.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\TakeHeart\TakeHeart\bin\Debug\netcoreapp2.0\TakeHeart.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\TakeHeart\TakeHeart\obj\Debug\netcoreapp2.0\TakeHeart.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\TakeHeart\TakeHeart\obj\Debug\netcoreapp2.0\TakeHeart.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\TakeHeart\TakeHeart\obj\Debug\netcoreapp2.0\TakeHeart.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\TakeHeart\TakeHeart\obj\Debug\netcoreapp2.0\TakeHeart.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\TakeHeart\TakeHeart\obj\Debug\netcoreapp2.0\TakeHeart.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\TakeHeart\TakeHeart\obj\Debug\netcoreapp2.0\TakeHeart.pdb
