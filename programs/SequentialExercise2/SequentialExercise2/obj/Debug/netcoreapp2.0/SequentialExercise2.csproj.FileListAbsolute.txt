@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\source\repos\SequentialExercise2\SequentialExercise2\bin\Debug\netcoreapp2.0\SequentialExercise2.deps.json
+C:\Users\dbergeron2\source\repos\SequentialExercise2\SequentialExercise2\bin\Debug\netcoreapp2.0\SequentialExercise2.runtimeconfig.json
+C:\Users\dbergeron2\source\repos\SequentialExercise2\SequentialExercise2\bin\Debug\netcoreapp2.0\SequentialExercise2.runtimeconfig.dev.json
+C:\Users\dbergeron2\source\repos\SequentialExercise2\SequentialExercise2\bin\Debug\netcoreapp2.0\SequentialExercise2.dll
+C:\Users\dbergeron2\source\repos\SequentialExercise2\SequentialExercise2\bin\Debug\netcoreapp2.0\SequentialExercise2.pdb
+C:\Users\dbergeron2\source\repos\SequentialExercise2\SequentialExercise2\obj\Debug\netcoreapp2.0\SequentialExercise2.csprojAssemblyReference.cache
+C:\Users\dbergeron2\source\repos\SequentialExercise2\SequentialExercise2\obj\Debug\netcoreapp2.0\SequentialExercise2.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\source\repos\SequentialExercise2\SequentialExercise2\obj\Debug\netcoreapp2.0\SequentialExercise2.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\source\repos\SequentialExercise2\SequentialExercise2\obj\Debug\netcoreapp2.0\SequentialExercise2.AssemblyInfo.cs
+C:\Users\dbergeron2\source\repos\SequentialExercise2\SequentialExercise2\obj\Debug\netcoreapp2.0\SequentialExercise2.dll
+C:\Users\dbergeron2\source\repos\SequentialExercise2\SequentialExercise2\obj\Debug\netcoreapp2.0\SequentialExercise2.pdb

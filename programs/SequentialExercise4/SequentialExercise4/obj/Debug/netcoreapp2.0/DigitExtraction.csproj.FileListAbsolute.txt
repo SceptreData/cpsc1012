@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SequentialExercise4\SequentialExercise4\bin\Debug\netcoreapp2.0\DigitExtraction.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SequentialExercise4\SequentialExercise4\bin\Debug\netcoreapp2.0\DigitExtraction.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SequentialExercise4\SequentialExercise4\bin\Debug\netcoreapp2.0\DigitExtraction.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SequentialExercise4\SequentialExercise4\bin\Debug\netcoreapp2.0\DigitExtraction.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SequentialExercise4\SequentialExercise4\bin\Debug\netcoreapp2.0\DigitExtraction.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SequentialExercise4\SequentialExercise4\obj\Debug\netcoreapp2.0\DigitExtraction.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SequentialExercise4\SequentialExercise4\obj\Debug\netcoreapp2.0\DigitExtraction.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SequentialExercise4\SequentialExercise4\obj\Debug\netcoreapp2.0\DigitExtraction.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SequentialExercise4\SequentialExercise4\obj\Debug\netcoreapp2.0\DigitExtraction.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SequentialExercise4\SequentialExercise4\obj\Debug\netcoreapp2.0\DigitExtraction.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SequentialExercise4\SequentialExercise4\obj\Debug\netcoreapp2.0\DigitExtraction.pdb
