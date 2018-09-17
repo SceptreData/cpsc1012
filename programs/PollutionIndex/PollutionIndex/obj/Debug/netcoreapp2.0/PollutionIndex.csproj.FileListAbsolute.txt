@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PollutionIndex\PollutionIndex\bin\Debug\netcoreapp2.0\PollutionIndex.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PollutionIndex\PollutionIndex\bin\Debug\netcoreapp2.0\PollutionIndex.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PollutionIndex\PollutionIndex\bin\Debug\netcoreapp2.0\PollutionIndex.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PollutionIndex\PollutionIndex\bin\Debug\netcoreapp2.0\PollutionIndex.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PollutionIndex\PollutionIndex\bin\Debug\netcoreapp2.0\PollutionIndex.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PollutionIndex\PollutionIndex\obj\Debug\netcoreapp2.0\PollutionIndex.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PollutionIndex\PollutionIndex\obj\Debug\netcoreapp2.0\PollutionIndex.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PollutionIndex\PollutionIndex\obj\Debug\netcoreapp2.0\PollutionIndex.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PollutionIndex\PollutionIndex\obj\Debug\netcoreapp2.0\PollutionIndex.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PollutionIndex\PollutionIndex\obj\Debug\netcoreapp2.0\PollutionIndex.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PollutionIndex\PollutionIndex\obj\Debug\netcoreapp2.0\PollutionIndex.pdb

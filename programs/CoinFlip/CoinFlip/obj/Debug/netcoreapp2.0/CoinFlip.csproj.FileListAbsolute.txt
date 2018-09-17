@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CoinFlip\CoinFlip\bin\Debug\netcoreapp2.0\CoinFlip.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CoinFlip\CoinFlip\bin\Debug\netcoreapp2.0\CoinFlip.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CoinFlip\CoinFlip\bin\Debug\netcoreapp2.0\CoinFlip.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CoinFlip\CoinFlip\bin\Debug\netcoreapp2.0\CoinFlip.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CoinFlip\CoinFlip\bin\Debug\netcoreapp2.0\CoinFlip.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CoinFlip\CoinFlip\obj\Debug\netcoreapp2.0\CoinFlip.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CoinFlip\CoinFlip\obj\Debug\netcoreapp2.0\CoinFlip.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CoinFlip\CoinFlip\obj\Debug\netcoreapp2.0\CoinFlip.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CoinFlip\CoinFlip\obj\Debug\netcoreapp2.0\CoinFlip.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CoinFlip\CoinFlip\obj\Debug\netcoreapp2.0\CoinFlip.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CoinFlip\CoinFlip\obj\Debug\netcoreapp2.0\CoinFlip.pdb

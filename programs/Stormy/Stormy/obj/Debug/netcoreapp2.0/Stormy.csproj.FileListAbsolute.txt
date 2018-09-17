@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Stormy\Stormy\obj\Debug\netcoreapp2.0\Stormy.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Stormy\Stormy\obj\Debug\netcoreapp2.0\Stormy.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Stormy\Stormy\obj\Debug\netcoreapp2.0\Stormy.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Stormy\Stormy\obj\Debug\netcoreapp2.0\Stormy.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Stormy\Stormy\bin\Debug\netcoreapp2.0\Stormy.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Stormy\Stormy\bin\Debug\netcoreapp2.0\Stormy.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Stormy\Stormy\bin\Debug\netcoreapp2.0\Stormy.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Stormy\Stormy\bin\Debug\netcoreapp2.0\Stormy.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Stormy\Stormy\bin\Debug\netcoreapp2.0\Stormy.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Stormy\Stormy\obj\Debug\netcoreapp2.0\Stormy.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Stormy\Stormy\obj\Debug\netcoreapp2.0\Stormy.pdb

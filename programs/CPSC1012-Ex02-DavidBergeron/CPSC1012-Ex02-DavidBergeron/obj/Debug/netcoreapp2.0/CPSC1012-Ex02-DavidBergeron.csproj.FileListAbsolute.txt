@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-Ex02-DavidBergeron\CPSC1012-Ex02-DavidBergeron\bin\Debug\netcoreapp2.0\CPSC1012-Ex02-DavidBergeron.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-Ex02-DavidBergeron\CPSC1012-Ex02-DavidBergeron\bin\Debug\netcoreapp2.0\CPSC1012-Ex02-DavidBergeron.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-Ex02-DavidBergeron\CPSC1012-Ex02-DavidBergeron\bin\Debug\netcoreapp2.0\CPSC1012-Ex02-DavidBergeron.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-Ex02-DavidBergeron\CPSC1012-Ex02-DavidBergeron\bin\Debug\netcoreapp2.0\CPSC1012-Ex02-DavidBergeron.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-Ex02-DavidBergeron\CPSC1012-Ex02-DavidBergeron\bin\Debug\netcoreapp2.0\CPSC1012-Ex02-DavidBergeron.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-Ex02-DavidBergeron\CPSC1012-Ex02-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-Ex02-DavidBergeron.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-Ex02-DavidBergeron\CPSC1012-Ex02-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-Ex02-DavidBergeron.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-Ex02-DavidBergeron\CPSC1012-Ex02-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-Ex02-DavidBergeron.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-Ex02-DavidBergeron\CPSC1012-Ex02-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-Ex02-DavidBergeron.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-Ex02-DavidBergeron\CPSC1012-Ex02-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-Ex02-DavidBergeron.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-Ex02-DavidBergeron\CPSC1012-Ex02-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-Ex02-DavidBergeron.pdb
