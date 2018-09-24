@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\source\repos\PassCPSC1012\PassCPSC1012\bin\Debug\netcoreapp2.0\PassCPSC1012.deps.json
+C:\Users\dbergeron2\source\repos\PassCPSC1012\PassCPSC1012\bin\Debug\netcoreapp2.0\PassCPSC1012.runtimeconfig.json
+C:\Users\dbergeron2\source\repos\PassCPSC1012\PassCPSC1012\bin\Debug\netcoreapp2.0\PassCPSC1012.runtimeconfig.dev.json
+C:\Users\dbergeron2\source\repos\PassCPSC1012\PassCPSC1012\bin\Debug\netcoreapp2.0\PassCPSC1012.dll
+C:\Users\dbergeron2\source\repos\PassCPSC1012\PassCPSC1012\bin\Debug\netcoreapp2.0\PassCPSC1012.pdb
+C:\Users\dbergeron2\source\repos\PassCPSC1012\PassCPSC1012\obj\Debug\netcoreapp2.0\PassCPSC1012.csprojAssemblyReference.cache
+C:\Users\dbergeron2\source\repos\PassCPSC1012\PassCPSC1012\obj\Debug\netcoreapp2.0\PassCPSC1012.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\source\repos\PassCPSC1012\PassCPSC1012\obj\Debug\netcoreapp2.0\PassCPSC1012.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\source\repos\PassCPSC1012\PassCPSC1012\obj\Debug\netcoreapp2.0\PassCPSC1012.AssemblyInfo.cs
+C:\Users\dbergeron2\source\repos\PassCPSC1012\PassCPSC1012\obj\Debug\netcoreapp2.0\PassCPSC1012.dll
+C:\Users\dbergeron2\source\repos\PassCPSC1012\PassCPSC1012\obj\Debug\netcoreapp2.0\PassCPSC1012.pdb
