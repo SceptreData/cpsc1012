@@ -64,7 +64,7 @@ namespace CorePortfolio1
             double gateHeight;
 
             // Declare Process variables (Stuff we need to calculate)
-            double
+            double 
             double
             double
             double
