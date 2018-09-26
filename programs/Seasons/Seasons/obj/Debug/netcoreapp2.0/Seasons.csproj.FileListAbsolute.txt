@@ -1,0 +1,10 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Seasons\Seasons\bin\Debug\netcoreapp2.0\Seasons.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Seasons\Seasons\bin\Debug\netcoreapp2.0\Seasons.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Seasons\Seasons\bin\Debug\netcoreapp2.0\Seasons.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Seasons\Seasons\bin\Debug\netcoreapp2.0\Seasons.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Seasons\Seasons\bin\Debug\netcoreapp2.0\Seasons.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Seasons\Seasons\obj\Debug\netcoreapp2.0\Seasons.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Seasons\Seasons\obj\Debug\netcoreapp2.0\Seasons.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Seasons\Seasons\obj\Debug\netcoreapp2.0\Seasons.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Seasons\Seasons\obj\Debug\netcoreapp2.0\Seasons.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Seasons\Seasons\obj\Debug\netcoreapp2.0\Seasons.pdb

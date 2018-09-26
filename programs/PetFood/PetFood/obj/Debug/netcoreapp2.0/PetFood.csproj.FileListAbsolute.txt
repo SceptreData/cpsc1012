@@ -1,0 +1,10 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PetFood\PetFood\bin\Debug\netcoreapp2.0\PetFood.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PetFood\PetFood\bin\Debug\netcoreapp2.0\PetFood.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PetFood\PetFood\bin\Debug\netcoreapp2.0\PetFood.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PetFood\PetFood\bin\Debug\netcoreapp2.0\PetFood.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PetFood\PetFood\bin\Debug\netcoreapp2.0\PetFood.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PetFood\PetFood\obj\Debug\netcoreapp2.0\PetFood.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PetFood\PetFood\obj\Debug\netcoreapp2.0\PetFood.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PetFood\PetFood\obj\Debug\netcoreapp2.0\PetFood.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PetFood\PetFood\obj\Debug\netcoreapp2.0\PetFood.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\PetFood\PetFood\obj\Debug\netcoreapp2.0\PetFood.pdb

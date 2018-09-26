@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SwitchDemo\SwitchDemo\bin\Debug\netcoreapp2.0\SwitchDemo.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SwitchDemo\SwitchDemo\bin\Debug\netcoreapp2.0\SwitchDemo.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SwitchDemo\SwitchDemo\bin\Debug\netcoreapp2.0\SwitchDemo.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SwitchDemo\SwitchDemo\bin\Debug\netcoreapp2.0\SwitchDemo.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SwitchDemo\SwitchDemo\bin\Debug\netcoreapp2.0\SwitchDemo.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SwitchDemo\SwitchDemo\obj\Debug\netcoreapp2.0\SwitchDemo.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SwitchDemo\SwitchDemo\obj\Debug\netcoreapp2.0\SwitchDemo.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SwitchDemo\SwitchDemo\obj\Debug\netcoreapp2.0\SwitchDemo.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SwitchDemo\SwitchDemo\obj\Debug\netcoreapp2.0\SwitchDemo.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SwitchDemo\SwitchDemo\obj\Debug\netcoreapp2.0\SwitchDemo.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SwitchDemo\SwitchDemo\obj\Debug\netcoreapp2.0\SwitchDemo.pdb
