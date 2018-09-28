@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\david\\.nuget\\packages\\": {},
+    "C:\\Users\\dbergeron2\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\edu\\cpsc1012\\programs\\CorePortfolio1\\CorePortfolio1\\CorePortfolio1.csproj",
+      "projectUniqueName": "C:\\Users\\dbergeron2\\Documents\\cpsc1012\\programs\\CorePortfolio1\\CorePortfolio1\\CorePortfolio1.csproj",
       "projectName": "CorePortfolio1",
-      "projectPath": "C:\\Projects\\edu\\cpsc1012\\programs\\CorePortfolio1\\CorePortfolio1\\CorePortfolio1.csproj",
-      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\edu\\cpsc1012\\programs\\CorePortfolio1\\CorePortfolio1\\obj\\",
+      "projectPath": "C:\\Users\\dbergeron2\\Documents\\cpsc1012\\programs\\CorePortfolio1\\CorePortfolio1\\CorePortfolio1.csproj",
+      "packagesPath": "C:\\Users\\dbergeron2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dbergeron2\\Documents\\cpsc1012\\programs\\CorePortfolio1\\CorePortfolio1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dbergeron2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
