@@ -1,9 +1,9 @@
 ﻿using System;
 
 namespace CorePortfolio1
-{  
+{
     /*
-     * Purpose: To determine the amount of materials and cost required to build a fence.
+     * Purpose: To determine the amount of materials and cost required to build a playground fence.
      *          
      * Input: Rectangular Playground dimensions (in Feet):
      *          - fenceLength
@@ -15,15 +15,31 @@ namespace CorePortfolio1
      *        Distance between Posts (in Feet)
      *          - postDistance
      *         
-     * Process: -fenceArea
-     *          -gateArea
-     *          - fencePerimiter
-     *          -numPosts
-     *          -railingLength
-     *          -quartsOfPaint
-     *          -subTotal
-     *          -taxAmount
-     *          -totalCost
+     * Process:
+     *          - totalPerimeter;
+     *          - fencePerimeter;
+     *          - fenceSqFt;
+     *          - fenceMaterial;
+     *          - fenceCost;
+     *
+     *          - numPosts;
+     *          - postCost;
+     *
+     *          - feetOfRailing;
+     *          - railMaterial;
+     *          - railCost;
+     *
+     *          - quartsOfPaint;
+     *          - numPaintBuckets;
+     *          - paintCost;
+     *
+     *          - gateMaterial;
+     *          - gateCost;
+     *
+     *          - netPrice;
+     *          - taxAmount;
+     *          - totalPrice; 
+     * 
      *          
      * Output:  Amount of Fencing Material required and Extended Price
      *          Number of Posts required and extended price
@@ -35,7 +51,7 @@ namespace CorePortfolio1
      *          Total Price
      *          
      * Written By: David Bergeron
-     * Date Modified: 2018.09.17
+     * Date Modified: 2018.09.30
      * */
     class Program
     {
@@ -121,11 +137,11 @@ namespace CorePortfolio1
             fencePerimeter = totalPerimeter - gateWidth;
 
             fenceSqFt = fencePerimeter * fenceHeight;
-
             fenceMaterial = Math.Ceiling(fenceSqFt * WASTE_FACTOR);
 
             // Now that we know how much fenceMaterial we need, we can calculate the price.
             fenceCost = fenceMaterial * FENCE_PRICE_PER_SQFT;
+
 
             /* POST CALCULATIONS 
              * We calculate the number of posts by:
@@ -137,16 +153,17 @@ namespace CorePortfolio1
             // Calculate the net cost for our posts.
             postCost = numPosts * POST_PRICE;
 
+
             /* RAILING CALCULATIONS
              * Calculate how many feet of Railing we need by:
              *   - multiplying our fence perimeter by 2 (for the top rail and the bottom rail)
              *   - multiply our linear feet of railing by the waste factor. */
-            //feetOfRailing = fencePerimeter * 2;
             feetOfRailing = Math.Ceiling(totalPerimeter * 2);
             railMaterial = feetOfRailing * WASTE_FACTOR;
 
             // Calculate net cost of our railing.
             railCost = railMaterial * RAIL_PRICE_PER_FOOT;
+
 
             /* PAINT CALCULATIONS
              * Calculate how much paint we need by:
@@ -162,6 +179,7 @@ namespace CorePortfolio1
 
             // Calculate net cost of our paint.
             paintCost = numPaintBuckets * PAINT_PRICE_PER_BUCKET;
+
 
             /* GATE CALCULATIONS
              *  Calculate how much gate material we need by:
