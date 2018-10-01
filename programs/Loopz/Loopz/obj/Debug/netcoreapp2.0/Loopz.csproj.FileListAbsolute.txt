@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Loopz\Loopz\bin\Debug\netcoreapp2.0\Loopz.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Loopz\Loopz\bin\Debug\netcoreapp2.0\Loopz.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Loopz\Loopz\bin\Debug\netcoreapp2.0\Loopz.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Loopz\Loopz\bin\Debug\netcoreapp2.0\Loopz.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Loopz\Loopz\bin\Debug\netcoreapp2.0\Loopz.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Loopz\Loopz\obj\Debug\netcoreapp2.0\Loopz.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Loopz\Loopz\obj\Debug\netcoreapp2.0\Loopz.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Loopz\Loopz\obj\Debug\netcoreapp2.0\Loopz.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Loopz\Loopz\obj\Debug\netcoreapp2.0\Loopz.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Loopz\Loopz\obj\Debug\netcoreapp2.0\Loopz.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\Loopz\Loopz\obj\Debug\netcoreapp2.0\Loopz.pdb

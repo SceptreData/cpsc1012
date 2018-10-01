@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CheckTemperature\CheckTemperature\bin\Debug\netcoreapp2.0\CheckTemperature.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CheckTemperature\CheckTemperature\bin\Debug\netcoreapp2.0\CheckTemperature.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CheckTemperature\CheckTemperature\bin\Debug\netcoreapp2.0\CheckTemperature.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CheckTemperature\CheckTemperature\bin\Debug\netcoreapp2.0\CheckTemperature.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CheckTemperature\CheckTemperature\bin\Debug\netcoreapp2.0\CheckTemperature.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CheckTemperature\CheckTemperature\obj\Debug\netcoreapp2.0\CheckTemperature.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CheckTemperature\CheckTemperature\obj\Debug\netcoreapp2.0\CheckTemperature.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CheckTemperature\CheckTemperature\obj\Debug\netcoreapp2.0\CheckTemperature.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CheckTemperature\CheckTemperature\obj\Debug\netcoreapp2.0\CheckTemperature.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CheckTemperature\CheckTemperature\obj\Debug\netcoreapp2.0\CheckTemperature.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CheckTemperature\CheckTemperature\obj\Debug\netcoreapp2.0\CheckTemperature.pdb
