@@ -33,13 +33,17 @@ namespace CPSC1012_Ex06_DavidBergeron
             double sumOfMarks = 0;
             double avgMark;
 
+            // Grab our input
             Console.Write("Enter number of students: ");
             numStudents = int.Parse(Console.ReadLine());
 
+            // Loop over each of our students
             for (int i = 0; i < numStudents; i++)
             {
                 Console.Write($"Enter mark for student #{i + 1}: ");
                 curMark = double.Parse(Console.ReadLine());
+
+                // Is this the highest or lowest mark we've seen?
                 if (curMark < minMark)
                 {
                     minMark = curMark;
@@ -49,10 +53,14 @@ namespace CPSC1012_Ex06_DavidBergeron
                     maxMark = curMark;
                 }
 
+                // Add it to our totals
                 sumOfMarks += curMark;
             }
 
-            avgMark = sumOfMarks / numStudents;
+            // Calculate the average
+            avgMark = (double)sumOfMarks / numStudents;
+
+            // Print our results
             Console.WriteLine($"\nAverage Mark: {avgMark}, Highest Mark: {maxMark}, Lowest Mark: {minMark}");
         }
     }

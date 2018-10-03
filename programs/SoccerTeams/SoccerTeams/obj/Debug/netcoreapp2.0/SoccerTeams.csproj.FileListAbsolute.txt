@@ -1,0 +1,11 @@
+c:\users\dbergeron2\Documents\cpsc1012\programs\SoccerTeams\SoccerTeams\obj\Debug\netcoreapp2.0\SoccerTeams.csprojAssemblyReference.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\SoccerTeams\SoccerTeams\obj\Debug\netcoreapp2.0\SoccerTeams.csproj.CoreCompileInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\SoccerTeams\SoccerTeams\obj\Debug\netcoreapp2.0\SoccerTeams.AssemblyInfoInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\SoccerTeams\SoccerTeams\obj\Debug\netcoreapp2.0\SoccerTeams.AssemblyInfo.cs
+c:\users\dbergeron2\Documents\cpsc1012\programs\SoccerTeams\SoccerTeams\bin\Debug\netcoreapp2.0\SoccerTeams.deps.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\SoccerTeams\SoccerTeams\bin\Debug\netcoreapp2.0\SoccerTeams.runtimeconfig.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\SoccerTeams\SoccerTeams\bin\Debug\netcoreapp2.0\SoccerTeams.runtimeconfig.dev.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\SoccerTeams\SoccerTeams\bin\Debug\netcoreapp2.0\SoccerTeams.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\SoccerTeams\SoccerTeams\bin\Debug\netcoreapp2.0\SoccerTeams.pdb
+c:\users\dbergeron2\Documents\cpsc1012\programs\SoccerTeams\SoccerTeams\obj\Debug\netcoreapp2.0\SoccerTeams.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\SoccerTeams\SoccerTeams\obj\Debug\netcoreapp2.0\SoccerTeams.pdb

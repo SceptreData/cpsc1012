@@ -1,0 +1,11 @@
+c:\users\dbergeron2\Documents\cpsc1012\programs\ForTest\ForTest\bin\Debug\netcoreapp2.0\ForTest.deps.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\ForTest\ForTest\bin\Debug\netcoreapp2.0\ForTest.runtimeconfig.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\ForTest\ForTest\bin\Debug\netcoreapp2.0\ForTest.runtimeconfig.dev.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\ForTest\ForTest\bin\Debug\netcoreapp2.0\ForTest.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\ForTest\ForTest\bin\Debug\netcoreapp2.0\ForTest.pdb
+c:\users\dbergeron2\Documents\cpsc1012\programs\ForTest\ForTest\obj\Debug\netcoreapp2.0\ForTest.csprojAssemblyReference.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\ForTest\ForTest\obj\Debug\netcoreapp2.0\ForTest.csproj.CoreCompileInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\ForTest\ForTest\obj\Debug\netcoreapp2.0\ForTest.AssemblyInfoInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\ForTest\ForTest\obj\Debug\netcoreapp2.0\ForTest.AssemblyInfo.cs
+c:\users\dbergeron2\Documents\cpsc1012\programs\ForTest\ForTest\obj\Debug\netcoreapp2.0\ForTest.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\ForTest\ForTest\obj\Debug\netcoreapp2.0\ForTest.pdb

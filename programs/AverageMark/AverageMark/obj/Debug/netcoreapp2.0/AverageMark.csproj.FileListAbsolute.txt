@@ -1,0 +1,11 @@
+c:\users\dbergeron2\Documents\cpsc1012\programs\AverageMark\AverageMark\bin\Debug\netcoreapp2.0\AverageMark.deps.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\AverageMark\AverageMark\bin\Debug\netcoreapp2.0\AverageMark.runtimeconfig.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\AverageMark\AverageMark\bin\Debug\netcoreapp2.0\AverageMark.runtimeconfig.dev.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\AverageMark\AverageMark\bin\Debug\netcoreapp2.0\AverageMark.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\AverageMark\AverageMark\bin\Debug\netcoreapp2.0\AverageMark.pdb
+c:\users\dbergeron2\Documents\cpsc1012\programs\AverageMark\AverageMark\obj\Debug\netcoreapp2.0\AverageMark.csprojAssemblyReference.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\AverageMark\AverageMark\obj\Debug\netcoreapp2.0\AverageMark.csproj.CoreCompileInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\AverageMark\AverageMark\obj\Debug\netcoreapp2.0\AverageMark.AssemblyInfoInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\AverageMark\AverageMark\obj\Debug\netcoreapp2.0\AverageMark.AssemblyInfo.cs
+c:\users\dbergeron2\Documents\cpsc1012\programs\AverageMark\AverageMark\obj\Debug\netcoreapp2.0\AverageMark.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\AverageMark\AverageMark\obj\Debug\netcoreapp2.0\AverageMark.pdb

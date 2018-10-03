@@ -1,0 +1,11 @@
+c:\users\dbergeron2\Documents\cpsc1012\programs\TestDoWhile\TestDoWhile\bin\Debug\netcoreapp2.0\TestDoWhile.deps.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\TestDoWhile\TestDoWhile\bin\Debug\netcoreapp2.0\TestDoWhile.runtimeconfig.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\TestDoWhile\TestDoWhile\bin\Debug\netcoreapp2.0\TestDoWhile.runtimeconfig.dev.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\TestDoWhile\TestDoWhile\bin\Debug\netcoreapp2.0\TestDoWhile.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\TestDoWhile\TestDoWhile\bin\Debug\netcoreapp2.0\TestDoWhile.pdb
+c:\users\dbergeron2\Documents\cpsc1012\programs\TestDoWhile\TestDoWhile\obj\Debug\netcoreapp2.0\TestDoWhile.csprojAssemblyReference.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\TestDoWhile\TestDoWhile\obj\Debug\netcoreapp2.0\TestDoWhile.csproj.CoreCompileInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\TestDoWhile\TestDoWhile\obj\Debug\netcoreapp2.0\TestDoWhile.AssemblyInfoInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\TestDoWhile\TestDoWhile\obj\Debug\netcoreapp2.0\TestDoWhile.AssemblyInfo.cs
+c:\users\dbergeron2\Documents\cpsc1012\programs\TestDoWhile\TestDoWhile\obj\Debug\netcoreapp2.0\TestDoWhile.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\TestDoWhile\TestDoWhile\obj\Debug\netcoreapp2.0\TestDoWhile.pdb
