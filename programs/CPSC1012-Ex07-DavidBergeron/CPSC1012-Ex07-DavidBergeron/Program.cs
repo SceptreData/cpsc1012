@@ -30,45 +30,56 @@ namespace CPSC1012_Ex07_DavidBergeron
     {
         static void Main(string[] args)
         {
-            int numStudents;
-            double curMark;
-            
-            // Initialize Min/Max to invalid values
-            double minMark = 101;
-            double maxMark = -1;
-            double sumOfMarks = 0;
-            double avgMark;
 
-            numStudents = 0;
+            double curMark = -1;
             do
             {
-                Console.WriteLine("Enter new student grade or 999 to QUIT.");
-                Console.Write("INPUT: ");
+                // Initialize Min/Max to invalid values
+                int numStudents = 0;
+                double minMark = 101;
+                double maxMark = -1;
+                double sumOfMarks = 0;
+                double avgMark = -1;
+
+                Console.WriteLine("Enter grade to start NEW CLASS or 999 to QUIT.");
+                Console.Write("Enter Grade: ");
                 curMark = double.Parse(Console.ReadLine());
 
-                while (curMark >= 0 && curMark <= 100)
+                while (curMark != 999)
                 {
-                    // Add a student
-                    numStudents++;
+                    // Check for valid input.
+                    if (curMark < 0 || curMark > 100)
+                    {
+                        Console.WriteLine("Invalid Input");
+                    }
+                    else
+                    {
+                        // Add a student
+                        numStudents++;
+                        // Is this the highest or lowest mark we've seen?
+                        if (curMark < minMark)
+                        {
+                            minMark = curMark;
+                        }
+                        if (curMark > maxMark)
+                        {
+                            maxMark = curMark;
+                        }
+                        // Add the mark to our running total for the avg.
+                        sumOfMarks += curMark;
+                    }
+                    Console.Write("Enter Grade: ");
+                    curMark = double.Parse(Console.ReadLine());
+                }
 
-                    // Is this the highest or lowest mark we've seen?
-                    if (curMark < minMark)
-                    {
-                        minMark = curMark;
-                    }
-                    if (curMark > maxMark)
-                    {
-                        maxMark = curMark;
-                    }
-                    // Add the mark to our running total for the avg.
-                    sumOfMarks += curMark;
+                if (numStudents > 0)
+                {
+                    avgMark = (double)sumOfMarks / numStudents;
+                    Console.WriteLine($"\nCLASS SIZE: {numStudents}");
+                    Console.WriteLine($"Average Mark: {avgMark}, Highest Mark: {maxMark}, Lowest Mark: {minMark}\n");
                     curMark = -1;
                 }
             } while (curMark != 999);
-
-            avgMark = (double)sumOfMarks / numStudents;
-            Console.WriteLine($"\nCLASS SIZE: {numStudents}\n");
-            Console.WriteLine($"\nAverage Mark: {avgMark}, Highest Mark: {maxMark}, Lowest Mark: {minMark}");
         }
     }
 }

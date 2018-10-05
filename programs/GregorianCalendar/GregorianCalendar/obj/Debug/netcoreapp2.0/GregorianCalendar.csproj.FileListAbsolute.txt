@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\GregorianCalendar\GregorianCalendar\bin\Debug\netcoreapp2.0\GregorianCalendar.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\GregorianCalendar\GregorianCalendar\bin\Debug\netcoreapp2.0\GregorianCalendar.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\GregorianCalendar\GregorianCalendar\bin\Debug\netcoreapp2.0\GregorianCalendar.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\GregorianCalendar\GregorianCalendar\bin\Debug\netcoreapp2.0\GregorianCalendar.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\GregorianCalendar\GregorianCalendar\bin\Debug\netcoreapp2.0\GregorianCalendar.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\GregorianCalendar\GregorianCalendar\obj\Debug\netcoreapp2.0\GregorianCalendar.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\GregorianCalendar\GregorianCalendar\obj\Debug\netcoreapp2.0\GregorianCalendar.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\GregorianCalendar\GregorianCalendar\obj\Debug\netcoreapp2.0\GregorianCalendar.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\GregorianCalendar\GregorianCalendar\obj\Debug\netcoreapp2.0\GregorianCalendar.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\GregorianCalendar\GregorianCalendar\obj\Debug\netcoreapp2.0\GregorianCalendar.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\GregorianCalendar\GregorianCalendar\obj\Debug\netcoreapp2.0\GregorianCalendar.pdb
