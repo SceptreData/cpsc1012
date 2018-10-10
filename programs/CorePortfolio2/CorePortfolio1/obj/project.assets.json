@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dbergeron2\\Documents\\cpsc1012\\programs\\CorePortfolio1\\CorePortfolio1\\CorePortfolio1.csproj",
-      "projectName": "CorePortfolio1",
-      "projectPath": "C:\\Users\\dbergeron2\\Documents\\cpsc1012\\programs\\CorePortfolio1\\CorePortfolio1\\CorePortfolio1.csproj",
+      "projectUniqueName": "C:\\Users\\dbergeron2\\Documents\\cpsc1012\\programs\\CorePortfolio2\\CorePortfolio1\\CorePortfolio2.csproj",
+      "projectName": "CorePortfolio2",
+      "projectPath": "C:\\Users\\dbergeron2\\Documents\\cpsc1012\\programs\\CorePortfolio2\\CorePortfolio1\\CorePortfolio2.csproj",
       "packagesPath": "C:\\Users\\dbergeron2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dbergeron2\\Documents\\cpsc1012\\programs\\CorePortfolio1\\CorePortfolio1\\obj\\",
+      "outputPath": "C:\\Users\\dbergeron2\\Documents\\cpsc1012\\programs\\CorePortfolio2\\CorePortfolio1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

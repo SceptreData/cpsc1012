@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio1\CorePortfolio1\bin\Debug\netcoreapp2.0\CorePortfolio1.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio1\CorePortfolio1\bin\Debug\netcoreapp2.0\CorePortfolio1.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio1\CorePortfolio1\bin\Debug\netcoreapp2.0\CorePortfolio1.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio1\CorePortfolio1\bin\Debug\netcoreapp2.0\CorePortfolio1.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio1\CorePortfolio1\bin\Debug\netcoreapp2.0\CorePortfolio1.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio1\CorePortfolio1\obj\Debug\netcoreapp2.0\CorePortfolio1.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio1\CorePortfolio1\obj\Debug\netcoreapp2.0\CorePortfolio1.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio1\CorePortfolio1\obj\Debug\netcoreapp2.0\CorePortfolio1.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio1\CorePortfolio1\obj\Debug\netcoreapp2.0\CorePortfolio1.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio1\CorePortfolio1\obj\Debug\netcoreapp2.0\CorePortfolio1.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio1\CorePortfolio1\obj\Debug\netcoreapp2.0\CorePortfolio1.pdb
