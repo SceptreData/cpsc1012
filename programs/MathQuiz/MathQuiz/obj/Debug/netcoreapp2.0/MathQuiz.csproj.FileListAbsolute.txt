@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\MathQuiz\MathQuiz\bin\Debug\netcoreapp2.0\MathQuiz.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\MathQuiz\MathQuiz\bin\Debug\netcoreapp2.0\MathQuiz.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\MathQuiz\MathQuiz\bin\Debug\netcoreapp2.0\MathQuiz.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\MathQuiz\MathQuiz\bin\Debug\netcoreapp2.0\MathQuiz.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\MathQuiz\MathQuiz\bin\Debug\netcoreapp2.0\MathQuiz.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\MathQuiz\MathQuiz\obj\Debug\netcoreapp2.0\MathQuiz.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\MathQuiz\MathQuiz\obj\Debug\netcoreapp2.0\MathQuiz.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\MathQuiz\MathQuiz\obj\Debug\netcoreapp2.0\MathQuiz.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\MathQuiz\MathQuiz\obj\Debug\netcoreapp2.0\MathQuiz.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\MathQuiz\MathQuiz\obj\Debug\netcoreapp2.0\MathQuiz.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\MathQuiz\MathQuiz\obj\Debug\netcoreapp2.0\MathQuiz.pdb
