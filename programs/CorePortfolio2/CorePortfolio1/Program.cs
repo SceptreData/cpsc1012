@@ -60,32 +60,76 @@ namespace CorePortfolio2
             bool running = true;
             while (running)
             {
-                const int EXIT = 0
-                Console.WriteLine("\tDefault Settings include Spruce Lumber and Basic Paint");
-                Console.WriteLine();
-                Console.WriteLine(" 1. Playground Dimensions");
-                Console.WriteLine(" 2. Gate Dimensions");
-                Console.WriteLine(" 3. Distance Between Posts");
-                Console.WriteLine(" 4. Fence Type");
-                Console.WriteLine(" 5. Paint Type");
-                Console.WriteLine(" 6. Create Packing Slip");
-                Console.WriteLine(" 0. Exit");
-
-                Console.WriteLine("\t\tMake a Selection >> ");
-                int mode = int.Parse(Console.ReadLine());
-
-                switch (mode)
+                DrawMenu();
+                switch ( GetMode() )
                 {
                     case 0:
                         running = false;
                         break;
+
+                    // Set Playground Dimensions
                     case 1:
                         Console.Clear();
                         break;
 
-                    
+                    case 2:
+                        break;
+
+                    case 3:
+                        break;
+                    case 4:
+                        break;
+                    case 5:
+                        break;
+                    case 6:
+                        break;
+                    default:
+                        break;
                 }
             }
+        }
+
+        static void DrawMenu()
+        {
+            Console.WriteLine("\tDefault Settings include Spruce Lumber and Basic Paint");
+            Console.WriteLine();
+            Console.WriteLine(" 1. Playground Dimensions");
+            Console.WriteLine(" 2. Gate Dimensions");
+            Console.WriteLine(" 3. Distance Between Posts");
+            Console.WriteLine(" 4. Fence Type");
+            Console.WriteLine(" 5. Paint Type");
+            Console.WriteLine(" 6. Create Packing Slip");
+            Console.WriteLine(" 0. Exit");
+        }
+
+        static int GetMode()
+        {
+            int mode = GetNumber("\t\tMake a Selection >> ");
+            if (mode < 0 || mode > 6)
+            {
+                Console.WriteLine("Error: Invalid menu choice selected. Enter 0-6.");
+                return GetMode();
+            } else {
+                return mode;
+            }
+        }
+
+        static int GetNumber(string msg)
+        {
+            try
+            {
+                Console.Write(msg);
+                int num = int.Parse(Console.ReadLine());
+                return num;
+            } catch (Exception e)
+            {
+                Console.WriteLine("Invalid Input. Not a Number.");
+                return GetNumber(msg);
+            }
+        }
+
+        static 
+
             //// Declare my Constants
             //const double WASTE_FACTOR = 1.10;
 
@@ -278,5 +322,4 @@ namespace CorePortfolio2
             //                                "Total",
             //                                totalPrice);
         }
-    }
 }
