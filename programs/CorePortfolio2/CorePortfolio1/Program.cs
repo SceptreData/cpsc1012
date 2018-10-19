@@ -57,81 +57,11 @@ namespace CorePortfolio2
     {
         static void Main(string[] args)
         {
-            bool running = true;
-            while (running)
-            {
-                DrawMenu();
-                switch ( GetMode() )
-                {
-                    case 0:
-                        running = false;
-                        break;
-
-                    // Set Playground Dimensions
-                    case 1:
-                        Console.Clear();
-                        break;
-
-                    case 2:
-                        break;
-
-                    case 3:
-                        break;
-                    case 4:
-                        break;
-                    case 5:
-                        break;
-                    case 6:
-                        break;
-                    default:
-                        break;
-                }
-            }
-        }
-
-        static void DrawMenu()
-        {
-            Console.WriteLine("\tDefault Settings include Spruce Lumber and Basic Paint");
-            Console.WriteLine();
-            Console.WriteLine(" 1. Playground Dimensions");
-            Console.WriteLine(" 2. Gate Dimensions");
-            Console.WriteLine(" 3. Distance Between Posts");
-            Console.WriteLine(" 4. Fence Type");
-            Console.WriteLine(" 5. Paint Type");
-            Console.WriteLine(" 6. Create Packing Slip");
-            Console.WriteLine(" 0. Exit");
-        }
-
-        static int GetMode()
-        {
-            int mode = GetNumber("\t\tMake a Selection >> ");
-            if (mode < 0 || mode > 6)
-            {
-                Console.WriteLine("Error: Invalid menu choice selected. Enter 0-6.");
-                return GetMode();
-            } else {
-                return mode;
-            }
-        }
-
-        static int GetNumber(string msg)
-        {
-            try
-            {
-                Console.Write(msg);
-                int num = int.Parse(Console.ReadLine());
-                return num;
-            } catch (Exception e)
-            {
-                Console.WriteLine("Invalid Input. Not a Number.");
-                return GetNumber(msg);
-            }
-        }
-
-        static 
-
-            //// Declare my Constants
+            // Declare my Constants
             //const double WASTE_FACTOR = 1.10;
+
+
+           
 
             //const double FENCE_PRICE_PER_SQFT = 7.25;
             //const double POST_PRICE = 23.99;
@@ -146,15 +76,16 @@ namespace CorePortfolio2
             //const double TAX_RATE = 0.05;           
 
             //// Declare inputs.
-            //double fenceLength;
-            //double fenceWidth;
-            //double fenceHeight;
-            
-            //double postDistance; 
+            double fenceLength = 0;
+            double fenceWidth = 0;
+            double fenceHeight = 0;
 
-            //double gateWidth;
-            //double gateHeight;
+            double gateWidth = 0;
+            double gateHeight = 0;
 
+            double postDistance = 0;
+
+            double fencePricePerSqFt = 4.50;
             //// Declare Process variables (Stuff we need to calculate)
             //double totalPerimeter;
             //double fencePerimeter;
@@ -180,146 +111,291 @@ namespace CorePortfolio2
             //double taxAmount;
             //double totalPrice;
 
-            //// Grab our inputs
-            //Console.Write("Enter the width of the playground\t>> ");
-            //fenceWidth = double.Parse(Console.ReadLine());
+            bool running = true;
+            while (running)
+            {
+                DrawMenu();
+                switch ( GetMode() )
+                {
+                    case 0:
+                        running = false;
+                        break;
 
-            //Console.Write("Enter the length of the playground\t>> ");
-            //fenceLength = double.Parse(Console.ReadLine());
+                    // Set Playground Dimensions
+                    case 1:
+                        Console.Clear();
+                        Console.WriteLine(" Fence Dimensions");
+                        fenceWidth  = GetNumber("Width");
+                        fenceLength = GetNumber("Length");
+                        fenceHeight = GetNumber("Height");
+                        break;
 
-            //Console.Write("Enter the height of the fence\t\t>> ");
-            //fenceHeight = double.Parse(Console.ReadLine());
+                    // Set Gate Dimensions
+                    case 2:
+                        Console.Clear();
+                        Console.WriteLine(" Gate Dimensions");
+                        gateWidth  = GetNumber("Width");
+                        gateHeight = GetNumber("Height");
+                        break;
 
-            //Console.Write("Enter the width of the gate\t\t>> ");
-            //gateWidth = double.Parse(Console.ReadLine());
+                    // Set Distance Between Posts
+                    case 3:
+                        Console.Clear();
+                        Console.WriteLine(" Distance Between Posts");
+                        postDistance = GetNumber("Distance");
+                        break;
 
-            //Console.Write("Enter the height of the gate\t\t>> ");
-            //gateHeight = double.Parse(Console.ReadLine());
+                    // Set Fence Type
+                    case 4:
+                        DrawFenceMenu();
+                        fencePricePerSqFt = GetFencePrice();
+                        break;
+                    
+                    // Set Paint Type
+                    case 5:
+                        break;
 
-            //Console.Write("Enter the space between posts\t\t>> ");
-            //postDistance = double.Parse(Console.ReadLine());
-
-
-            ///* FENCING MATERIAL CALCULATION
-            // * We calculate our total fencingMaterial by:
-            // *    - Calculating the total perimeter of the playground
-            // *    - Determining perimeter of the fence by subtracting the width of the gate.
-            // *    - calculating Square Footage of our Fence (fencePerimeter * fenceHeight)
-            // *    - Making sure to factor in our waste ratio. */
-            //totalPerimeter = (fenceLength * 2) + (fenceWidth * 2);
-            //fencePerimeter = totalPerimeter - gateWidth;
-
-            //fenceSqFt = fencePerimeter * fenceHeight;
-            //fenceMaterial = Math.Ceiling(fenceSqFt * WASTE_FACTOR);
-
-            //// Now that we know how much fenceMaterial we need, we can calculate the price.
-            //fenceCost = fenceMaterial * FENCE_PRICE_PER_SQFT;
-
-
-            ///* POST CALCULATIONS 
-            // * We calculate the number of posts by:
-            // *   - dividing the lineal footage of the fence by the distance between posts.
-            // *   - Rounding up the nearest whole number (using Math.Ceiling)
-            // *   - Adding an extra post for the first corner. */
-            //numPosts = Math.Ceiling((totalPerimeter / postDistance)) + 1;
-
-            //// Calculate the net cost for our posts.
-            //postCost = numPosts * POST_PRICE;
-
-
-            ///* RAILING CALCULATIONS
-            // * Calculate how many feet of Railing we need by:
-            // *   - multiplying our fence perimeter by 2 (for the top rail and the bottom rail)
-            // *   - multiply our linear feet of railing by the waste factor. */
-            //feetOfRailing = Math.Ceiling(totalPerimeter * 2);
-            //railMaterial = feetOfRailing * WASTE_FACTOR;
-
-            //// Calculate net cost of our railing.
-            //railCost = railMaterial * RAIL_PRICE_PER_FOOT;
-
-
-            ///* PAINT CALCULATIONS
-            // * Calculate how much paint we need by:
-            // *      - divide the Square Footage of fence we need to paint by 100.
-            // *         - Need to paint both sides of the fence, so double our fence SquareFootage.
-            // *         - Each gallon of paint covers 400 SQFT of fence.
-            // *         - There are 4 Quarts of paint per gallon, so each quart of paint
-            // *           covers 100 Square Feet of Fence
-            // *      - Making sure to include our WASTE_FACTOR
-            // *      - Rounding up to the nearest whole number (We can't buy half a bucket of paint) */
-            //quartsOfPaint = (fenceSqFt * 2) / SQFT_PAINT_PER_QUART;
-            //numPaintBuckets = Math.Ceiling( quartsOfPaint );
-
-            //// Calculate net cost of our paint.
-            //paintCost = numPaintBuckets * PAINT_PRICE_PER_BUCKET;
-
-
-            ///* GATE CALCULATIONS
-            // *  Calculate how much gate material we need by:
-            // *     - determining Square Footage of our gate (gateWidth * gateHeight) 
-            // *     - Making sure to include our WASTE_FACTOR */
-            //gateMaterial = gateWidth * gateHeight;
-
-            //// Calculate Net cost for the gate, including fixed cost.
-            //gateCost = GATE_FIXED_PRICE + (gateMaterial * GATE_PRICE_PER_SQFT);
-
-
-            ///* Total Price Calculations */
-            //netPrice = fenceCost + postCost + railCost + gateCost + paintCost;
-            //taxAmount = netPrice * TAX_RATE;
-
-            //totalPrice = netPrice + taxAmount;
-
-            ///* PRINT THOSE RESULTS */
-            //Console.WriteLine("\nInvoice and Packing Slip\n");
-            //Console.WriteLine("  {0,-8:F0} {1,5} {2,-20} @ {3,8:0.00} = {4,12:C}",
-            //                                 fenceMaterial,
-            //                                 "^ft.",
-            //                                 "Fence Material",
-            //                                 FENCE_PRICE_PER_SQFT,
-            //                                 fenceCost
-            //                                 );
-            //Console.WriteLine("  {0,-8:F0} {1,5} {2,-20} @ {3,8:0.00} = {4,12:C}",
-            //                                 numPosts,
-            //                                 "",
-            //                                 "Posts",
-            //                                 POST_PRICE,
-            //                                 postCost
-            //                                 );
-            //Console.WriteLine("  {0,-8:F0} {1,5} {2,-20} @ {3,8:0.00} = {4,12:C}",
-            //                                 railMaterial,
-            //                                 "ft.",
-            //                                 "Railing",
-            //                                 RAIL_PRICE_PER_FOOT,
-            //                                 railCost 
-            //                                 );
-            //Console.WriteLine("  {0,-8:F0} {1,5} {2,-20} @ {3,8} = {4,12:C}",
-            //                                 1.0,
-            //                                 "",
-            //                                 "Gate",
-            //                                 "",
-            //                                 gateCost
-            //                                 );
-            //Console.WriteLine("  {0,-8:F0} {1,5} {2,-20} @ {3,8:0.00} = {4,12:C}",
-            //                                 numPaintBuckets,
-            //                                 "qts.",
-            //                                 "Paint",
-            //                                 PAINT_PRICE_PER_BUCKET,
-            //                                 paintCost
-            //                                 );
-
-            //// Print our Totals
-            //Console.WriteLine("\n{0,-35} {1, -10}   = {2,12:C}",
-            //                                " ",
-            //                                "Net Price",
-            //                                netPrice);
-            //Console.WriteLine("{0, -35} {1, -10}   = {2,12:C}",
-            //                                " ",
-            //                                "GST",
-            //                                taxAmount);
-            //Console.WriteLine("{0, -35} {1, -10}   = {2,12:C}",
-            //                                " ",
-            //                                "Total",
-            //                                totalPrice);
+                    // Create Packing Slip (Print Results)
+                    case 6:
+                        break;
+                    
+                    // Invalid Input
+                    default:
+                        Console.WriteLine("Invalid Input. Press Any key to try again.");
+                        Console.ReadLine();
+                        break;
+                }
+            }
         }
+
+        static void DrawMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("\tDefault Settings include Spruce Lumber and Basic Paint");
+            Console.WriteLine();
+            Console.WriteLine(" 1. Playground Dimensions");
+            Console.WriteLine(" 2. Gate Dimensions");
+            Console.WriteLine(" 3. Distance Between Posts");
+            Console.WriteLine(" 4. Fence Type");
+            Console.WriteLine(" 5. Paint Type");
+            Console.WriteLine(" 6. Create Packing Slip");
+            Console.WriteLine(" 0. Exit");
+        }
+
+        static int GetMode()
+        {
+            int mode = (int)GetNumber("\tMake a Selection");
+            if (mode < 0 || mode > 6)
+            {
+                Console.WriteLine("Error: Invalid menu choice selected. Enter 0-6.");
+                return GetMode();
+            } else {
+                return mode;
+            }
+        }
+
+        static double GetNumber(string msg)
+        {
+            try
+            {
+                Console.Write($"\t {msg}: ");
+                double num = double.Parse(Console.ReadLine());
+                return num;
+            } catch (Exception e)
+            {
+                Console.WriteLine("Invalid Input. Not a Number.");
+                return GetNumber(msg);
+            }
+        }
+
+        static void DrawFenceMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("Fence Type");
+            Console.WriteLine($"\t 1. Spruce \t/   4.50 ^ft.");
+            Console.WriteLine($"\t 2. Cedar \t/   7.25 ^ft.");
+            Console.WriteLine($"\t 3. Chain Link \t/   13.50 ^ft.");
+        }
+
+        static double GetFencePrice()
+        {
+            const double sprucePrice = 4.50;
+            const double cedarPrice  = 7.25;
+            const double chainLinkPrice = 13.5;
+
+            double fencePrice = 0;
+            int fenceType = (int)GetNumber("\t Choose your fence type");
+            if (fenceType < 1 || fenceType > 3)
+            {
+                Console.WriteLine("\t\t Invalid Option. Enter a number from 1-3.");
+                return GetFencePrice();
+            }
+
+            switch(fenceType)
+            {
+                case 1:
+                    return sprucePrice;
+
+                case 2:
+                    return cedarPrice;
+
+                case 3:
+                    return chainLinkPrice;
+
+                default:
+                    Console.WriteLine("\t\t Invalid Option (How did you get here?)");
+                    return GetFencePrice();
+            }
+        }
+
+        static void DrawPaintMenu()
+        {
+            Console.WriteLine("Paint");
+            Console.WriteLine("\t 1. Basic \t 11.99 / gallon");
+            Console.WriteLine("\t 2. Premium \t 11.99 / gallon");
+            Console.WriteLine("\t 3. Deluxe \t 11.99 / gallon");
+        }
+
+        //// Grab our inputs
+        //Console.Write("Enter the width of the playground\t>> ");
+        //fenceWidth = double.Parse(Console.ReadLine());
+
+        //Console.Write("Enter the length of the playground\t>> ");
+        //fenceLength = double.Parse(Console.ReadLine());
+
+        //Console.Write("Enter the height of the fence\t\t>> ");
+        //fenceHeight = double.Parse(Console.ReadLine());
+
+        //Console.Write("Enter the width of the gate\t\t>> ");
+        //gateWidth = double.Parse(Console.ReadLine());
+
+        //Console.Write("Enter the height of the gate\t\t>> ");
+        //gateHeight = double.Parse(Console.ReadLine());
+
+        //Console.Write("Enter the space between posts\t\t>> ");
+        //postDistance = double.Parse(Console.ReadLine());
+
+
+        ///* FENCING MATERIAL CALCULATION
+        // * We calculate our total fencingMaterial by:
+        // *    - Calculating the total perimeter of the playground
+        // *    - Determining perimeter of the fence by subtracting the width of the gate.
+        // *    - calculating Square Footage of our Fence (fencePerimeter * fenceHeight)
+        // *    - Making sure to factor in our waste ratio. */
+        //totalPerimeter = (fenceLength * 2) + (fenceWidth * 2);
+        //fencePerimeter = totalPerimeter - gateWidth;
+
+        //fenceSqFt = fencePerimeter * fenceHeight;
+        //fenceMaterial = Math.Ceiling(fenceSqFt * WASTE_FACTOR);
+
+        //// Now that we know how much fenceMaterial we need, we can calculate the price.
+        //fenceCost = fenceMaterial * FENCE_PRICE_PER_SQFT;
+
+
+        ///* POST CALCULATIONS 
+        // * We calculate the number of posts by:
+        // *   - dividing the lineal footage of the fence by the distance between posts.
+        // *   - Rounding up the nearest whole number (using Math.Ceiling)
+        // *   - Adding an extra post for the first corner. */
+        //numPosts = Math.Ceiling((totalPerimeter / postDistance)) + 1;
+
+        //// Calculate the net cost for our posts.
+        //postCost = numPosts * POST_PRICE;
+
+
+        ///* RAILING CALCULATIONS
+        // * Calculate how many feet of Railing we need by:
+        // *   - multiplying our fence perimeter by 2 (for the top rail and the bottom rail)
+        // *   - multiply our linear feet of railing by the waste factor. */
+        //feetOfRailing = Math.Ceiling(totalPerimeter * 2);
+        //railMaterial = feetOfRailing * WASTE_FACTOR;
+
+        //// Calculate net cost of our railing.
+        //railCost = railMaterial * RAIL_PRICE_PER_FOOT;
+
+
+        ///* PAINT CALCULATIONS
+        // * Calculate how much paint we need by:
+        // *      - divide the Square Footage of fence we need to paint by 100.
+        // *         - Need to paint both sides of the fence, so double our fence SquareFootage.
+        // *         - Each gallon of paint covers 400 SQFT of fence.
+        // *         - There are 4 Quarts of paint per gallon, so each quart of paint
+        // *           covers 100 Square Feet of Fence
+        // *      - Making sure to include our WASTE_FACTOR
+        // *      - Rounding up to the nearest whole number (We can't buy half a bucket of paint) */
+        //quartsOfPaint = (fenceSqFt * 2) / SQFT_PAINT_PER_QUART;
+        //numPaintBuckets = Math.Ceiling( quartsOfPaint );
+
+        //// Calculate net cost of our paint.
+        //paintCost = numPaintBuckets * PAINT_PRICE_PER_BUCKET;
+
+
+        ///* GATE CALCULATIONS
+        // *  Calculate how much gate material we need by:
+        // *     - determining Square Footage of our gate (gateWidth * gateHeight) 
+        // *     - Making sure to include our WASTE_FACTOR */
+        //gateMaterial = gateWidth * gateHeight;
+
+        //// Calculate Net cost for the gate, including fixed cost.
+        //gateCost = GATE_FIXED_PRICE + (gateMaterial * GATE_PRICE_PER_SQFT);
+
+
+        ///* Total Price Calculations */
+        //netPrice = fenceCost + postCost + railCost + gateCost + paintCost;
+        //taxAmount = netPrice * TAX_RATE;
+
+        //totalPrice = netPrice + taxAmount;
+
+        ///* PRINT THOSE RESULTS */
+        //Console.WriteLine("\nInvoice and Packing Slip\n");
+        //Console.WriteLine("  {0,-8:F0} {1,5} {2,-20} @ {3,8:0.00} = {4,12:C}",
+        //                                 fenceMaterial,
+        //                                 "^ft.",
+        //                                 "Fence Material",
+        //                                 FENCE_PRICE_PER_SQFT,
+        //                                 fenceCost
+        //                                 );
+        //Console.WriteLine("  {0,-8:F0} {1,5} {2,-20} @ {3,8:0.00} = {4,12:C}",
+        //                                 numPosts,
+        //                                 "",
+        //                                 "Posts",
+        //                                 POST_PRICE,
+        //                                 postCost
+        //                                 );
+        //Console.WriteLine("  {0,-8:F0} {1,5} {2,-20} @ {3,8:0.00} = {4,12:C}",
+        //                                 railMaterial,
+        //                                 "ft.",
+        //                                 "Railing",
+        //                                 RAIL_PRICE_PER_FOOT,
+        //                                 railCost 
+        //                                 );
+        //Console.WriteLine("  {0,-8:F0} {1,5} {2,-20} @ {3,8} = {4,12:C}",
+        //                                 1.0,
+        //                                 "",
+        //                                 "Gate",
+        //                                 "",
+        //                                 gateCost
+        //                                 );
+        //Console.WriteLine("  {0,-8:F0} {1,5} {2,-20} @ {3,8:0.00} = {4,12:C}",
+        //                                 numPaintBuckets,
+        //                                 "qts.",
+        //                                 "Paint",
+        //                                 PAINT_PRICE_PER_BUCKET,
+        //                                 paintCost
+        //                                 );
+
+        //// Print our Totals
+        //Console.WriteLine("\n{0,-35} {1, -10}   = {2,12:C}",
+        //                                " ",
+        //                                "Net Price",
+        //                                netPrice);
+        //Console.WriteLine("{0, -35} {1, -10}   = {2,12:C}",
+        //                                " ",
+        //                                "GST",
+        //                                taxAmount);
+        //Console.WriteLine("{0, -35} {1, -10}   = {2,12:C}",
+        //                                " ",
+        //                                "Total",
+        //                                totalPrice);
+    }
 }
