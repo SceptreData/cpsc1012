@@ -63,7 +63,7 @@ namespace CorePortfolio2
      *          Our Various menus and Error Handling.
      *          
      * Written By: David Bergeron
-     * Date Modified: 2018.10.20
+     * Date Modified: 2018.10.22
      * */
     class Program
     {
@@ -141,24 +141,24 @@ namespace CorePortfolio2
                     case 1:
                         Console.Clear();
                         Console.WriteLine(" Fence Dimensions");
-                        fenceWidth  = GetNumber("Width");
-                        fenceLength = GetNumber("Length");
-                        fenceHeight = GetNumber("Height");
+                        fenceWidth  = GetPositiveNumber("Width");
+                        fenceLength = GetPositiveNumber("Length");
+                        fenceHeight = GetPositiveNumber("Height");
                         break;
 
                     // Set Gate Dimensions
                     case 2:
                         Console.Clear();
                         Console.WriteLine(" Gate Dimensions");
-                        gateWidth  = GetNumber("Width");
-                        gateHeight = GetNumber("Height");
+                        gateWidth  = GetPositiveNumber("Width");
+                        gateHeight = GetPositiveNumber("Height");
                         break;
 
                     // Set Distance Between Posts
                     case 3:
                         Console.Clear();
                         Console.WriteLine(" Distance Between Posts");
-                        postDistance = GetNumber("Distance");
+                        postDistance = GetPositiveNumber("Distance");
                         break;
 
                     // Set Fence Type
@@ -316,6 +316,7 @@ namespace CorePortfolio2
                         ReportTotal("Net Price", netPrice);
                         ReportTotal("GST", taxAmount);
                         ReportTotal("Total", totalPrice);
+                        Console.WriteLine("\nPress Enter to return to menu...");
                         Console.ReadLine();
                         break;
                     
@@ -498,6 +499,17 @@ namespace CorePortfolio2
                     SetPaintType(out paintStr, out paintPrice, out paintPerQuart);
                     break;
             }
+        }
+
+        static double GetPositiveNumber(string msg)
+        {
+            double num = GetNumber(msg);
+            if (num == 0)
+            {
+                Console.WriteLine("Invalid Input. Number cannot be Zero.");
+                return GetPositiveNumber(msg);
+            }
+            return num;
         }
 
         static double GetNumber(string msg)
