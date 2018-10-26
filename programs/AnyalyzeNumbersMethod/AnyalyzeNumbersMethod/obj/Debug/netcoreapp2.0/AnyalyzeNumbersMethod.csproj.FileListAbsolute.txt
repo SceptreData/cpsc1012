@@ -1,0 +1,11 @@
+c:\users\dbergeron2\Documents\cpsc1012\programs\AnyalyzeNumbersMethod\AnyalyzeNumbersMethod\bin\Debug\netcoreapp2.0\AnyalyzeNumbersMethod.deps.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\AnyalyzeNumbersMethod\AnyalyzeNumbersMethod\bin\Debug\netcoreapp2.0\AnyalyzeNumbersMethod.runtimeconfig.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\AnyalyzeNumbersMethod\AnyalyzeNumbersMethod\bin\Debug\netcoreapp2.0\AnyalyzeNumbersMethod.runtimeconfig.dev.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\AnyalyzeNumbersMethod\AnyalyzeNumbersMethod\bin\Debug\netcoreapp2.0\AnyalyzeNumbersMethod.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\AnyalyzeNumbersMethod\AnyalyzeNumbersMethod\bin\Debug\netcoreapp2.0\AnyalyzeNumbersMethod.pdb
+c:\users\dbergeron2\Documents\cpsc1012\programs\AnyalyzeNumbersMethod\AnyalyzeNumbersMethod\obj\Debug\netcoreapp2.0\AnyalyzeNumbersMethod.csprojAssemblyReference.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\AnyalyzeNumbersMethod\AnyalyzeNumbersMethod\obj\Debug\netcoreapp2.0\AnyalyzeNumbersMethod.csproj.CoreCompileInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\AnyalyzeNumbersMethod\AnyalyzeNumbersMethod\obj\Debug\netcoreapp2.0\AnyalyzeNumbersMethod.AssemblyInfoInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\AnyalyzeNumbersMethod\AnyalyzeNumbersMethod\obj\Debug\netcoreapp2.0\AnyalyzeNumbersMethod.AssemblyInfo.cs
+c:\users\dbergeron2\Documents\cpsc1012\programs\AnyalyzeNumbersMethod\AnyalyzeNumbersMethod\obj\Debug\netcoreapp2.0\AnyalyzeNumbersMethod.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\AnyalyzeNumbersMethod\AnyalyzeNumbersMethod\obj\Debug\netcoreapp2.0\AnyalyzeNumbersMethod.pdb
