@@ -4,13 +4,34 @@ namespace CPSC1012_Ex08_DavidBergeron
 {
     class Program
     {
+        /*
+         * Purpose: 
+         *      - Draw triangles on the screen using a specificed character
+         *        while handling invalid inputs.
+         * 
+         * Input: 
+         *    - Size of Triangle
+         *    - Character to draw triangle with.
+         * 
+         * Process:
+         *      - Use a for loop to draw the correct number of characters. 
+         *
+         * Output:
+         *    - Display Asterix Triangle
+         *    - Display Custom Triangle
+         *         
+         * Written By: David Bergeron
+         * Date Modified: 2018.10.22
+         * */
         static void Main(string[] args)
         {
             int num = GetNumber("Enter the number of rows: ");
             Console.Write("Enter the Draw Character: ");
 
             char c = char.Parse(Console.ReadLine());
-            DrawTriangle(5);
+            Console.WriteLine("\nDefault");
+            DrawTriangle(num);
+            Console.WriteLine("\nCustom");
             DrawTriangle(num, c);
         }
 
@@ -26,7 +47,7 @@ namespace CPSC1012_Ex08_DavidBergeron
                 {
                     num = int.Parse(Console.ReadLine());
 
-                    if (num > 0)
+                    if (num > 0 && num <= 10)
                         validInput = true;
                     else
                     {
@@ -44,10 +65,7 @@ namespace CPSC1012_Ex08_DavidBergeron
         static void DrawTriangle(int rows)
         {
             char c = '*';
-            for (int i = 1; i <= rows; i++)
-            {
-                DrawRow(i, c);
-            }
+            DrawTriangle(rows, c);
         }
        
         static void DrawTriangle(int rows, char drawChar)
