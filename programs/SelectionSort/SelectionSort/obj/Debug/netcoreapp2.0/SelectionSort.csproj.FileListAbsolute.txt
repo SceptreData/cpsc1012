@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SelectionSort\SelectionSort\bin\Debug\netcoreapp2.0\SelectionSort.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SelectionSort\SelectionSort\bin\Debug\netcoreapp2.0\SelectionSort.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SelectionSort\SelectionSort\bin\Debug\netcoreapp2.0\SelectionSort.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SelectionSort\SelectionSort\bin\Debug\netcoreapp2.0\SelectionSort.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SelectionSort\SelectionSort\bin\Debug\netcoreapp2.0\SelectionSort.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SelectionSort\SelectionSort\obj\Debug\netcoreapp2.0\SelectionSort.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SelectionSort\SelectionSort\obj\Debug\netcoreapp2.0\SelectionSort.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SelectionSort\SelectionSort\obj\Debug\netcoreapp2.0\SelectionSort.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SelectionSort\SelectionSort\obj\Debug\netcoreapp2.0\SelectionSort.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SelectionSort\SelectionSort\obj\Debug\netcoreapp2.0\SelectionSort.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\SelectionSort\SelectionSort\obj\Debug\netcoreapp2.0\SelectionSort.pdb

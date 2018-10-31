@@ -70,8 +70,64 @@ namespace CPSC1012_EX09_DavidBergeron
             return count;
         }
 
+        static void SortGradesDescending(int[] grades, int size)
+        {
+            for (int sortIdx = 0; sortIdx < size - 1; sortIdx++)
+            {
+                int maxIdx = sortIdx;
+                for (int curIdx = sortIdx + 1; curIdx < size; curIdx++)
+                {
+                    if (grades[curIdx] > grades[maxIdx])
+                    {
+                        maxIdx = curIdx;
+                    }
+
+                    if (maxIdx != sortIdx)
+                    {
+                        Swap(grades, maxIdx, sortIdx);
+                    }
+                }
+            }
+        }
+
+        static double CalculateAverage(int[] grades, int size)
+        {
+            int sum = 0;
+            for (int i = 0; i < size; i++)
+            {
+                sum += grades[i];
+            }
+            return sum / size;
+        }
+
+        static void Swap(int[] arr, int a, int b)
+        {
+            int tmp = arr[a];
+            arr[a] = arr[b];
+            arr[b] = tmp;
+        }
+
+        static void DisplayArray(int[] arr, int size)
+        {
+            for (int i = 0; i < size; i++)
+            {
+                Console.WriteLine($"\t{arr[i]}");
+            }
+        }
+
         static void Main(string[] args)
         {
+            int size = 5;
+            int[] studentGrades = new int[size];
+            EnterGrades(studentGrades, 5);
+            DisplayArray(studentGrades, 5);
+
+            Console.WriteLine("\nGrades Sorted:");
+            SortGradesDescending(studentGrades, 5);
+            DisplayArray(studentGrades, 5);
+
+            double avg = CalculateAverage(studentGrades, 5);
+            Console.WriteLine($"Average: {avg}");
         }
     }
 }
