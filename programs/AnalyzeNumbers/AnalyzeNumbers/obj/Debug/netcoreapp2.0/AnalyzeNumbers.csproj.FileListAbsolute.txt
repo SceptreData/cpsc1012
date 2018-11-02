@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AnalyzeNumbers\AnalyzeNumbers\bin\Debug\netcoreapp2.0\AnalyzeNumbers.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AnalyzeNumbers\AnalyzeNumbers\bin\Debug\netcoreapp2.0\AnalyzeNumbers.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AnalyzeNumbers\AnalyzeNumbers\bin\Debug\netcoreapp2.0\AnalyzeNumbers.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AnalyzeNumbers\AnalyzeNumbers\bin\Debug\netcoreapp2.0\AnalyzeNumbers.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AnalyzeNumbers\AnalyzeNumbers\bin\Debug\netcoreapp2.0\AnalyzeNumbers.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AnalyzeNumbers\AnalyzeNumbers\obj\Debug\netcoreapp2.0\AnalyzeNumbers.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AnalyzeNumbers\AnalyzeNumbers\obj\Debug\netcoreapp2.0\AnalyzeNumbers.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AnalyzeNumbers\AnalyzeNumbers\obj\Debug\netcoreapp2.0\AnalyzeNumbers.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AnalyzeNumbers\AnalyzeNumbers\obj\Debug\netcoreapp2.0\AnalyzeNumbers.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AnalyzeNumbers\AnalyzeNumbers\obj\Debug\netcoreapp2.0\AnalyzeNumbers.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\AnalyzeNumbers\AnalyzeNumbers\obj\Debug\netcoreapp2.0\AnalyzeNumbers.pdb

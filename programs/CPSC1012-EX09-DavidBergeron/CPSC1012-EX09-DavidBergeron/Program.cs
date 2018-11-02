@@ -17,8 +17,8 @@ namespace CPSC1012_EX09_DavidBergeron
 
             int numStudents = EnterGrades(grades, maxStudents);
 
+            DisplayArray(grades, numStudents);
         }
-
 
         static int EnterGrades(int[] grades, int max)
         {
@@ -134,6 +134,5 @@ namespace CPSC1012_EX09_DavidBergeron
             }
             return num;
         }
-
     }
 }
