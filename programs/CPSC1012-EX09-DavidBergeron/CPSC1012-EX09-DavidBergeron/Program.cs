@@ -5,17 +5,33 @@ namespace CPSC1012_EX09_DavidBergeron
     class Program
     {
         /*
-         * Enter Grades
-         * populates a passed array with grade values.
-         * Max = Length of Array.
-         * returns how many grades were entered
-         */
+          * Purpose: 
+          *      - To input a list of students grades in order to sort and display them.
+          *        Check for a variety of invalid inputs.
+          * 
+          * Input: 
+          *    - Max Length of our array
+          *    - Student Grades.
+          * 
+          * Process:
+          *      - Loop over our EnterGrades method until we have our array.
+          *      - Sort the grades Descendingly
+          *      - Caluclate the Average
+          *
+          * Output:
+          *    - List of Grades
+          *    - Average grades
+          *         
+          * Written By: David Bergeron
+          * Date Modified: 2018.11.02
+          * */
         static void Main(string[] args)
         {
             int maxStudents = 5;
             int[] grades = new int[maxStudents];
 
             int numStudents = EnterGrades(grades, maxStudents);
+            SortGradesDescending(grades, numStudents);
 
             DisplayArray(grades, numStudents);
         }
@@ -29,18 +45,21 @@ namespace CPSC1012_EX09_DavidBergeron
                 bool validInput = false;
                 while (!validInput)
                 {
-                    num = GetPositiveInt("Enter Grade: ");
-                    if (num == 999 || count == max)
+                    if (count == max)
                     {
-                        if (count == max)
-                        {
-                            Console.WriteLine("-----------------------");
-                            Console.WriteLine($"The free edition supports a max of {max} grades.");
-                            Console.WriteLine("Please Upgrade to a full edition for unlimited number of grades.");
-                            Console.WriteLine("-----------------------");
-                            Console.WriteLine("Press ANY key to continue.");
-                            Console.ReadLine();
-                        }
+                        Console.WriteLine("-----------------------");
+                        Console.WriteLine($"The free edition supports a max of {max} grades.");
+                        Console.WriteLine("Please upgrade to a full edition for unlimited number of grades.");
+                        Console.WriteLine("-----------------------");
+                        Console.WriteLine("Press ANY key to continue.");
+                        Console.ReadLine();
+                        return count;
+                    }
+                    num = GetPositiveInt("Enter Grade: ");
+
+                    // Check for Exit Conditions
+                    if (num == 999)
+                    {
                         return count;
                     }
 
@@ -59,9 +78,10 @@ namespace CPSC1012_EX09_DavidBergeron
             return count;
         }
 
+        /* Sort our Grades with SELECTION SORT */
         static void SortGradesDescending(int[] grades, int size)
         {
-            for (int scanIdx = 0; scanIdx < size - 1; i++)
+            for (int scanIdx = 0; scanIdx < size - 1; scanIdx++)
             {
                 int maxIdx = scanIdx;
                 for (int i = scanIdx + 1; i < size; i++)
@@ -77,12 +97,19 @@ namespace CPSC1012_EX09_DavidBergeron
             }
         }
 
+        static void Swap(int[] arr, int a, int b)
+        {
+            int tmp = arr[a];
+            arr[a] = arr[b];
+            arr[b] = tmp;
+        }
+
         static void DisplayArray(int[] grades, int size)
         {
-            Console.WriteLine("Grades from Highest to Lowest: ");
+            Console.WriteLine("\nGrades from Highest to Lowest: ");
             for (int i = 0; i < size; i++)
             {
-                Console.WriteLine("\t" + grades[i]);
+                Console.WriteLine("\t " + grades[i]);
             }
             Console.WriteLine("Average: " + CalculateAverage(grades, size));
         }
@@ -97,13 +124,7 @@ namespace CPSC1012_EX09_DavidBergeron
             return sum / size;
         }
 
-        static void Swap(int[] arr, int a, int b)
-        {
-            int tmp = arr[a];
-            arr[a] = arr[b];
-            arr[b] = tmp;
-        }
-
+        
         static int GetPositiveInt(string msg)
         {
             try
