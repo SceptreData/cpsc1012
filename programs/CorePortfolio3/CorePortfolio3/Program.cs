@@ -8,12 +8,16 @@ namespace CorePortfolio3
         {
             /* Declare the maximum number of items for our arrays */
             int maxNumItems = 100;
+            Console.WriteLine();
 
             /* Declare our Parallel Arrays. Use a counter to track the number
              * of Elements */
             int numItems = 0;
             string[] itemNames = new string[maxNumItems];
             double[] itemPrices= new double[maxNumItems];
+
+            string[] testNames = { "Apple Sauce", "Crushed Monkeys" };
+            double[] testPrices = { 5.99, 14.99 };
 
             bool running = true;
             while (running)
@@ -36,6 +40,7 @@ namespace CorePortfolio3
 
                     /* Display Printed Bill (Line Items + Totals )*/
                     case 4:
+                        DisplayBill(testNames, testPrices, 2, 5.00);
                         break;
 
                     /* Clear all items from Bill. */
@@ -56,6 +61,7 @@ namespace CorePortfolio3
 
         static bool AddBillItem(string[] itemNames, double[] itemPrices, int numItems)
         {
+            return false;
         }
 
         static void ClearBillItems(string[] itemNames, double[] itemValues, int numItems)
@@ -117,9 +123,19 @@ namespace CorePortfolio3
             return 0;
         }
 
-        static void DisplayBill()
-
+        static void DisplayBill(string[] itemNames, double[] itemPrices, int size, double tipVal)
         {
+            Console.Clear();
+            Console.WriteLine($"{"Description",-20}   {"Price", 10}");
+            Console.WriteLine($"{"-----------",-20}   {"-----", 10}");
+            for (int i = 0; i < size; i++)
+            {
+                Console.WriteLine($"{itemNames[i],-20}   {itemPrices[i],10}");
+            }
+
+            Console.WriteLine("---------------------------------------------");
+            Console.WriteLine($"{$"GST: {tipVal}",-20}");
+            Console.WriteLine($"{$"total: {tipVal}",-20}");
         }
 
         static void DisplayMainMenu()
