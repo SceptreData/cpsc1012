@@ -1,0 +1,11 @@
+C:\Users\dbergeron2\Documents\cpsc1012\programs\OOPdemo01\OOPdemo01\bin\Debug\netcoreapp2.0\OOPdemo01.deps.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\OOPdemo01\OOPdemo01\bin\Debug\netcoreapp2.0\OOPdemo01.runtimeconfig.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\OOPdemo01\OOPdemo01\bin\Debug\netcoreapp2.0\OOPdemo01.runtimeconfig.dev.json
+C:\Users\dbergeron2\Documents\cpsc1012\programs\OOPdemo01\OOPdemo01\bin\Debug\netcoreapp2.0\OOPdemo01.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\OOPdemo01\OOPdemo01\bin\Debug\netcoreapp2.0\OOPdemo01.pdb
+C:\Users\dbergeron2\Documents\cpsc1012\programs\OOPdemo01\OOPdemo01\obj\Debug\netcoreapp2.0\OOPdemo01.csprojAssemblyReference.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\OOPdemo01\OOPdemo01\obj\Debug\netcoreapp2.0\OOPdemo01.csproj.CoreCompileInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\OOPdemo01\OOPdemo01\obj\Debug\netcoreapp2.0\OOPdemo01.AssemblyInfoInputs.cache
+C:\Users\dbergeron2\Documents\cpsc1012\programs\OOPdemo01\OOPdemo01\obj\Debug\netcoreapp2.0\OOPdemo01.AssemblyInfo.cs
+C:\Users\dbergeron2\Documents\cpsc1012\programs\OOPdemo01\OOPdemo01\obj\Debug\netcoreapp2.0\OOPdemo01.dll
+C:\Users\dbergeron2\Documents\cpsc1012\programs\OOPdemo01\OOPdemo01\obj\Debug\netcoreapp2.0\OOPdemo01.pdb
