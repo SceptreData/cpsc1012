@@ -41,11 +41,13 @@ namespace CorePortfolio3
                     /* Display Printed Bill (Line Items + Totals )*/
                     case 4:
                         DisplayBill(testNames, testPrices, 2, 5.00);
+                        //DisplayBill(itemNames, itemPrices, 2, 5.00);
                         break;
 
                     /* Clear all items from Bill. */
                     case 5:
-                        ClearBillItems(itemNames, itemPrices, numItems);
+                        //ClearBillItems(itemNames, itemPrices, numItems);
+                        ClearBillItems(testNames, testPrices, numItems);
                         numItems = 0;
                         break;
 
