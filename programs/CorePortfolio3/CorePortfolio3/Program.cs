@@ -19,6 +19,8 @@ namespace CorePortfolio3
             string[] testNames = { "Apple Sauce", "Crushed Monkeys" };
             double[] testPrices = { 5.99, 14.99 };
 
+            double tipValue = 0;
+
             bool running = true;
             while (running)
             {
@@ -28,14 +30,32 @@ namespace CorePortfolio3
                 {
                     /* Add Item to Bill */
                     case 1:
+                        if (numItems < maxNumItems)
+                        {
+                            numItems = AddBillItem(itemNames, itemPrices, numItems);
+                        } else
+                        {
+                            Console.WriteLine("ERROR: Array currently full.");
+                        }
                         break;
 
                     /* Remove Item from Bill */
                     case 2:
+                        // listItems();
+                        if (numItems == 0)
+                        {
+                            Console.WriteLine("Cannot remove item from empty bill.");
+                        } else
+                        {
+                            int choice = GetMenuChoice("Which item would you like to remove?", numItems);
+                            numItems = RemoveBillItem(choice, itemNames, itemPrices, numItems);
+                        }
                         break;
 
                     /* Add Tip to Bill - By Percentage or Amount */
                     case 3:
+                        DisplayTipMenu();
+                        tipValue = GetTip (CalculateNetAmount(itemPrices, numItems));
                         break;
 
                     /* Display Printed Bill (Line Items + Totals )*/
@@ -61,19 +81,54 @@ namespace CorePortfolio3
 
         }
 
-        static bool AddBillItem(string[] itemNames, double[] itemPrices, int numItems)
+        static int AddBillItem(string[] itemNames, double[] itemPrices, int numItems)
         {
-            return false;
+            Console.Clear();
+            Console.WriteLine("Add Item to Bill");
+            Console.WriteLine("------------------");
+
+            // Grab Input from User
+            string newItemName = "";
+            double newItemPrice = -1;
+            Console.Write("Enter Item Name: ");
+            newItemName = Console.ReadLine();
+            newItemPrice = GetDouble("Enter Item Price: ");
+
+            // Add item to our array;
+            itemNames[numItems] = newItemName;
+            itemPrices[numItems] = newItemPrice;
+            numItems++;
+
+            return numItems;
         }
 
-        static void ClearBillItems(string[] itemNames, double[] itemValues, int numItems)
+        static void ClearBillItems(string[] itemNames, double[] itemPrices, int numItems)
         {
             /* Iterate over our parallel arrays and reset the values */
             for (int i = 0; i < numItems; i++)
             {
                 itemNames[i]  = null;
-                itemValues[i] = 0;
+                itemPrices[i] = 0;
             }
+        }
+
+        //  Remove an item from our bill, then shuffle the remaining elements into place.
+        static int RemoveBillItem(int deleteIdx, string[] itemNames, double[] itemPrices, int numItems)
+        {
+            if (deleteIdx >= numItems || numItems == 0)
+            {
+                Console.WriteLine("Unable to remove Item.");
+                return numItems;
+            }
+            itemNames[deleteIdx - 1]  = null;
+            itemPrices[deleteIdx - 1] = -1;
+            for (int i = deleteIdx - 1; i < numItems - 1; i++)
+            {
+                itemNames[i]  = itemNames[i + 1];
+                itemPrices[i] = itemPrices[i + 1];
+            }
+
+            return numItems - 1;
         }
 
         static double CalculateNetAmount(double[] itemPrices, int size)
@@ -117,7 +172,8 @@ namespace CorePortfolio3
 
         static double CalculateGst(double netAmount)
         {
-            return 0;
+            const double gstRate = 1.05;
+            return netAmount * gstRate;
         }
         
         static double CalculateTotalAmount(double netAmount)
