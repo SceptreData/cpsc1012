@@ -10,8 +10,8 @@ namespace CorePortfolio3
             int maxNumItems = 100;
             Console.WriteLine();
 
-            /* Declare our Parallel Arrays. Use a counter to track the number
-             * of Elements */
+            /* Declare our Parallel Arrays. 
+             * Use a counter to track the number  of Elements */
             int numItems = 0;
             string[] itemNames = new string[maxNumItems];
             double[] itemPrices= new double[maxNumItems];
@@ -21,9 +21,11 @@ namespace CorePortfolio3
 
             double tipValue = 0;
 
+            /* Main Program Loop */
             bool running = true;
             while (running)
             {
+                Console.Clear();
                 DisplayMainMenu();
 
                 switch( GetMainMenuInput() )
@@ -35,7 +37,7 @@ namespace CorePortfolio3
                             numItems = AddBillItem(itemNames, itemPrices, numItems);
                         } else
                         {
-                            Console.WriteLine("ERROR: Array currently full.");
+                            Error("Array currently full.");
                         }
                         break;
 
@@ -44,7 +46,7 @@ namespace CorePortfolio3
                         // listItems();
                         if (numItems == 0)
                         {
-                            Console.WriteLine("Cannot remove item from empty bill.");
+                            Error("Cannot remove item from empty bill.");
                         } else
                         {
                             int choice = GetMenuChoice("Which item would you like to remove?", numItems);
@@ -60,19 +62,20 @@ namespace CorePortfolio3
 
                     /* Display Printed Bill (Line Items + Totals )*/
                     case 4:
-                        DisplayBill(testNames, testPrices, 2, 5.00);
-                        //DisplayBill(itemNames, itemPrices, 2, 5.00);
+                        //DisplayBill(testNames, testPrices, 2, 5.00);
+                        DisplayBill(itemNames, itemPrices, numItems, 5.00);
                         break;
 
                     /* Clear all items from Bill. */
                     case 5:
-                        //ClearBillItems(itemNames, itemPrices, numItems);
-                        ClearBillItems(testNames, testPrices, numItems);
+                        ClearBillItems(itemNames, itemPrices, numItems);
+                        //ClearBillItems(testNames, testPrices, numItems);
                         numItems = 0;
                         break;
 
                     /* Exit the program */
                     case 6:
+                        Console.Clear();
                         Console.WriteLine("GoodBye!");
                         running = false;
                         break;
@@ -117,7 +120,7 @@ namespace CorePortfolio3
         {
             if (deleteIdx >= numItems || numItems == 0)
             {
-                Console.WriteLine("Unable to remove Item.");
+                Error("Unable to remove Item.");
                 return numItems;
             }
             itemNames[deleteIdx - 1]  = null;
@@ -194,6 +197,9 @@ namespace CorePortfolio3
             Console.WriteLine("---------------------------------------------");
             Console.WriteLine($"{$"GST: {tipVal}",-20}");
             Console.WriteLine($"{$"total: {tipVal}",-20}");
+
+            Console.WriteLine("\n Press Any Key to Continue.");
+            Console.ReadLine();
         }
 
         static void DisplayMainMenu()
@@ -224,7 +230,7 @@ namespace CorePortfolio3
                 menuChoice = (int)GetDouble(msg);
                 if (menuChoice < 1 || menuChoice > numOptions)
                 {
-                    Console.WriteLine($"Invalid Selection. Input must be number from 1-{numOptions}. ");
+                    Error($"Invalid Selection. Input must be number from 1-{numOptions}. ");
                 } else
                 {
                     validInput = true;
@@ -241,14 +247,14 @@ namespace CorePortfolio3
                 double num = double.Parse(Console.ReadLine());
                 if (num < 0)
                 {
-                    Console.WriteLine("Invalid Input. Number must be positive.");
+                    Error("Invalid Input. Number must be positive.");
                     return GetDouble(prompt);
                 }
                 return num;
             }
             catch (Exception e)
             {
-                Console.WriteLine("Invalid Input. Not a Number.");
+                Error("Invalid Input. Not a Number.");
                 return GetDouble(prompt);
             }
         }
@@ -258,10 +264,18 @@ namespace CorePortfolio3
             double num = GetDouble(prompt);
             if (num > max)
             {
-                Console.WriteLine($"Invalid Input. Number can't be higher than {max}");
+                Error($"Invalid Input. Number can't be higher than {max}");
                 return GetDouble(prompt, max);
             }
             return num;
         }
+
+        static void Error(string msg)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write("Error: ");
+            Console.ResetColor();
+        }
     }
 }
+

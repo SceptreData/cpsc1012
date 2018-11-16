@@ -9,3 +9,14 @@ C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio3\CorePortfolio3\ob
 C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio3\CorePortfolio3\obj\Debug\netcoreapp2.0\CorePortfolio3.AssemblyInfo.cs
 C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio3\CorePortfolio3\obj\Debug\netcoreapp2.0\CorePortfolio3.dll
 C:\Users\dbergeron2\Documents\cpsc1012\programs\CorePortfolio3\CorePortfolio3\obj\Debug\netcoreapp2.0\CorePortfolio3.pdb
+C:\Projects\edu\cpsc1012\programs\CorePortfolio3\CorePortfolio3\bin\Debug\netcoreapp2.0\CorePortfolio3.deps.json
+C:\Projects\edu\cpsc1012\programs\CorePortfolio3\CorePortfolio3\bin\Debug\netcoreapp2.0\CorePortfolio3.runtimeconfig.json
+C:\Projects\edu\cpsc1012\programs\CorePortfolio3\CorePortfolio3\bin\Debug\netcoreapp2.0\CorePortfolio3.runtimeconfig.dev.json
+C:\Projects\edu\cpsc1012\programs\CorePortfolio3\CorePortfolio3\bin\Debug\netcoreapp2.0\CorePortfolio3.dll
+C:\Projects\edu\cpsc1012\programs\CorePortfolio3\CorePortfolio3\bin\Debug\netcoreapp2.0\CorePortfolio3.pdb
+C:\Projects\edu\cpsc1012\programs\CorePortfolio3\CorePortfolio3\obj\Debug\netcoreapp2.0\CorePortfolio3.csprojAssemblyReference.cache
+C:\Projects\edu\cpsc1012\programs\CorePortfolio3\CorePortfolio3\obj\Debug\netcoreapp2.0\CorePortfolio3.csproj.CoreCompileInputs.cache
+C:\Projects\edu\cpsc1012\programs\CorePortfolio3\CorePortfolio3\obj\Debug\netcoreapp2.0\CorePortfolio3.AssemblyInfoInputs.cache
+C:\Projects\edu\cpsc1012\programs\CorePortfolio3\CorePortfolio3\obj\Debug\netcoreapp2.0\CorePortfolio3.AssemblyInfo.cs
+C:\Projects\edu\cpsc1012\programs\CorePortfolio3\CorePortfolio3\obj\Debug\netcoreapp2.0\CorePortfolio3.dll
+C:\Projects\edu\cpsc1012\programs\CorePortfolio3\CorePortfolio3\obj\Debug\netcoreapp2.0\CorePortfolio3.pdb
