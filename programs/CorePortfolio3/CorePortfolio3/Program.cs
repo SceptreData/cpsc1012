@@ -49,6 +49,7 @@ namespace CorePortfolio3
                             Error("Cannot remove item from empty bill.");
                         } else
                         {
+                            DisplayRemoveMenu(itemNames, itemPrices, numItems);
                             int choice = GetMenuChoice("Which item would you like to remove?", numItems);
                             numItems = RemoveBillItem(choice, itemNames, itemPrices, numItems);
                         }
@@ -214,6 +215,17 @@ namespace CorePortfolio3
             Console.WriteLine(" 5) Clear All");
             Console.WriteLine(" 6) Exit");
             Console.WriteLine();
+        }
+
+        static void DisplayRemoveMenu(string[] itemNames, double[] itemPrices, int numItems)
+        {
+            Console.Clear();
+            Console.WriteLine($"{"ItemNo",5} {"Item Name",15} {"Item Price",-5}");
+            Console.WriteLine($"{"======",5} {"=========",15} {"==========",-5}");
+            for (int i = 0; i < numItems; i++)
+            {
+                Console.WriteLine($"{i + 1,5} {itemNames[i],15} {itemPrices[i],-5}");
+            }
         }
 
         static int GetMainMenuInput()

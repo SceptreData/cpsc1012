@@ -1,0 +1,11 @@
+c:\users\dbergeron2\Documents\cpsc1012\programs\DiceApp\DiceApp\bin\Debug\netcoreapp2.0\DiceApp.deps.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\DiceApp\DiceApp\bin\Debug\netcoreapp2.0\DiceApp.runtimeconfig.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\DiceApp\DiceApp\bin\Debug\netcoreapp2.0\DiceApp.runtimeconfig.dev.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\DiceApp\DiceApp\bin\Debug\netcoreapp2.0\DiceApp.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\DiceApp\DiceApp\bin\Debug\netcoreapp2.0\DiceApp.pdb
+c:\users\dbergeron2\Documents\cpsc1012\programs\DiceApp\DiceApp\obj\Debug\netcoreapp2.0\DiceApp.csprojAssemblyReference.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\DiceApp\DiceApp\obj\Debug\netcoreapp2.0\DiceApp.csproj.CoreCompileInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\DiceApp\DiceApp\obj\Debug\netcoreapp2.0\DiceApp.AssemblyInfoInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\DiceApp\DiceApp\obj\Debug\netcoreapp2.0\DiceApp.AssemblyInfo.cs
+c:\users\dbergeron2\Documents\cpsc1012\programs\DiceApp\DiceApp\obj\Debug\netcoreapp2.0\DiceApp.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\DiceApp\DiceApp\obj\Debug\netcoreapp2.0\DiceApp.pdb

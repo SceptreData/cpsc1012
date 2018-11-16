@@ -5,26 +5,26 @@ namespace CPSC1012_EX09_DavidBergeron
     class Program
     {
         /*
-          * Purpose: 
-          *      - To input a list of students grades in order to sort and display them.
-          *        Check for a variety of invalid inputs.
-          * 
-          * Input: 
-          *    - Max Length of our array
-          *    - Student Grades.
-          * 
-          * Process:
-          *      - Loop over our EnterGrades method until we have our array.
-          *      - Sort the grades Descendingly
-          *      - Caluclate the Average
-          *
-          * Output:
-          *    - List of Grades
-          *    - Average grades
-          *         
-          * Written By: David Bergeron
-          * Date Modified: 2018.11.02
-          * */
+         * Purpose: 
+         *      - To input a list of students grades in order to sort and display them.
+         *        Check for a variety of invalid inputs.
+         * 
+         * Input: 
+         *    - Max Length of our array
+         *    - Student Grades.
+         * 
+         * Process:
+         *      - Loop over our EnterGrades method until we have our array.
+         *      - Sort the grades Descendingly
+         *      - Caluclate the Average
+         *
+         * Output:
+         *    - List of Grades
+         *    - Average grades
+         *         
+         * Written By: David Bergeron
+         * Date Modified: 2018.11.02
+         * */
         static void Main(string[] args)
         {
             int maxStudents = 5;
