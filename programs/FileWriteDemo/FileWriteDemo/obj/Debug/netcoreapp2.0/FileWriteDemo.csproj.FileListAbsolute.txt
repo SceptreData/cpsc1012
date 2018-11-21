@@ -1,0 +1,10 @@
+c:\users\dbergeron2\Documents\cpsc1012\programs\FileWriteDemo\FileWriteDemo\obj\Debug\netcoreapp2.0\FileWriteDemo.csproj.CoreCompileInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\FileWriteDemo\FileWriteDemo\obj\Debug\netcoreapp2.0\FileWriteDemo.AssemblyInfoInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\FileWriteDemo\FileWriteDemo\obj\Debug\netcoreapp2.0\FileWriteDemo.AssemblyInfo.cs
+c:\users\dbergeron2\Documents\cpsc1012\programs\FileWriteDemo\FileWriteDemo\bin\Debug\netcoreapp2.0\FileWriteDemo.deps.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\FileWriteDemo\FileWriteDemo\bin\Debug\netcoreapp2.0\FileWriteDemo.runtimeconfig.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\FileWriteDemo\FileWriteDemo\bin\Debug\netcoreapp2.0\FileWriteDemo.runtimeconfig.dev.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\FileWriteDemo\FileWriteDemo\bin\Debug\netcoreapp2.0\FileWriteDemo.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\FileWriteDemo\FileWriteDemo\bin\Debug\netcoreapp2.0\FileWriteDemo.pdb
+c:\users\dbergeron2\Documents\cpsc1012\programs\FileWriteDemo\FileWriteDemo\obj\Debug\netcoreapp2.0\FileWriteDemo.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\FileWriteDemo\FileWriteDemo\obj\Debug\netcoreapp2.0\FileWriteDemo.pdb
