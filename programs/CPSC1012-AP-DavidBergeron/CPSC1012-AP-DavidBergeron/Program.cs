@@ -12,6 +12,7 @@ namespace CPSC1012_AP_DavidBergeron
 
             RoomDimension rd = new RoomDimension(roomLength, roomWidth);
             RoomCarpet carpet = new RoomCarpet(rd, carpetCost);
+            Console.WriteLine(rd);
             Console.WriteLine(carpet);
         }
 
