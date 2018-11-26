@@ -6,6 +6,17 @@ namespace CPSC1012_AP_DavidBergeron
     {
         static void Main(string[] args)
         {
+
+            // RunRoomCarpet()
+        }
+
+        static void RunAcetaminophen()
+        {
+
+        }
+
+        static void RunRoomCarpet()
+        {
             double roomLength = GetDouble("Enter the Room Length in Feet: ");
             double roomWidth  = GetDouble("Enter the Room Length in Feet: ");
             double carpetCost = GetDouble("Enter the Carpet Cost per Square Foot: ");
