@@ -64,7 +64,56 @@ namespace CPSC1012_AP_DavidBergeron
         
         public double LiquidDosageByAge()
         {
+            double dosage = -1;
 
+            if (Age >= 2 && Age <= 3) { dosage =  5; }
+            else if (Age >= 4 && Age <= 5) { dosage = 7.5; }
+            else if (Age >= 6 && Age <= 8) { dosage = 10; }
+            else if (Age >= 9 && Age <= 10) { dosage = 12.5; }
+            else if (Age == 11) { dosage =  15; }
+
+            return dosage;
+        }
+
+        public void GetWeight()
+        {
+            bool valid = false;
+            double weight;
+            do
+            {
+                Console.Write("Enter Weight: ");
+                valid = double.TryParse(Console.ReadLine(), out weight);
+                if (weight < 24 || weight > 95)
+                {
+                    valid = false;
+                    Console.WriteLine("Weight must be between 24-95.");
+                }
+            } while (!valid);
+            Weight = weight;
+        }
+
+        public void GetAge()
+        {
+            bool valid = false;
+            int age;
+            do
+            {
+                Console.Write("Enter Age: ");
+                valid = int.TryParse(Console.ReadLine(), out age);
+                if (age < 2 || age > 11)
+                {
+                    valid = false;
+                    Console.WriteLine("Age must be between 2-11.");
+                }
+            } while (!valid);
+            Age = age;
+        }
+
+        public override string ToString()
+        {
+            string str = $"Dosage by weight ({Weight}): {LiquidDosageByWeight()}\n" +
+                         $"Dosage by age ({Age}): {LiquidDosageByAge()}";
+            return str;
         }
     }
 }
