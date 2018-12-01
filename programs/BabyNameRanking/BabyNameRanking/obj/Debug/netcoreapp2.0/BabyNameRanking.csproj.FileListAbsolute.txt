@@ -1,0 +1,11 @@
+c:\users\dbergeron2\Documents\cpsc1012\programs\BabyNameRanking\BabyNameRanking\bin\Debug\netcoreapp2.0\BabyNameRanking.deps.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\BabyNameRanking\BabyNameRanking\bin\Debug\netcoreapp2.0\BabyNameRanking.runtimeconfig.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\BabyNameRanking\BabyNameRanking\bin\Debug\netcoreapp2.0\BabyNameRanking.runtimeconfig.dev.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\BabyNameRanking\BabyNameRanking\bin\Debug\netcoreapp2.0\BabyNameRanking.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\BabyNameRanking\BabyNameRanking\bin\Debug\netcoreapp2.0\BabyNameRanking.pdb
+c:\users\dbergeron2\Documents\cpsc1012\programs\BabyNameRanking\BabyNameRanking\obj\Debug\netcoreapp2.0\BabyNameRanking.csprojAssemblyReference.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\BabyNameRanking\BabyNameRanking\obj\Debug\netcoreapp2.0\BabyNameRanking.csproj.CoreCompileInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\BabyNameRanking\BabyNameRanking\obj\Debug\netcoreapp2.0\BabyNameRanking.AssemblyInfoInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\BabyNameRanking\BabyNameRanking\obj\Debug\netcoreapp2.0\BabyNameRanking.AssemblyInfo.cs
+c:\users\dbergeron2\Documents\cpsc1012\programs\BabyNameRanking\BabyNameRanking\obj\Debug\netcoreapp2.0\BabyNameRanking.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\BabyNameRanking\BabyNameRanking\obj\Debug\netcoreapp2.0\BabyNameRanking.pdb

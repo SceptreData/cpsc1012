@@ -1,0 +1,11 @@
+c:\users\dbergeron2\Documents\cpsc1012\programs\OopCore1\OopCore1\bin\Debug\netcoreapp2.0\OopCore1.deps.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\OopCore1\OopCore1\bin\Debug\netcoreapp2.0\OopCore1.runtimeconfig.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\OopCore1\OopCore1\bin\Debug\netcoreapp2.0\OopCore1.runtimeconfig.dev.json
+c:\users\dbergeron2\Documents\cpsc1012\programs\OopCore1\OopCore1\bin\Debug\netcoreapp2.0\OopCore1.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\OopCore1\OopCore1\bin\Debug\netcoreapp2.0\OopCore1.pdb
+c:\users\dbergeron2\Documents\cpsc1012\programs\OopCore1\OopCore1\obj\Debug\netcoreapp2.0\OopCore1.csprojAssemblyReference.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\OopCore1\OopCore1\obj\Debug\netcoreapp2.0\OopCore1.csproj.CoreCompileInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\OopCore1\OopCore1\obj\Debug\netcoreapp2.0\OopCore1.AssemblyInfoInputs.cache
+c:\users\dbergeron2\Documents\cpsc1012\programs\OopCore1\OopCore1\obj\Debug\netcoreapp2.0\OopCore1.AssemblyInfo.cs
+c:\users\dbergeron2\Documents\cpsc1012\programs\OopCore1\OopCore1\obj\Debug\netcoreapp2.0\OopCore1.dll
+c:\users\dbergeron2\Documents\cpsc1012\programs\OopCore1\OopCore1\obj\Debug\netcoreapp2.0\OopCore1.pdb
