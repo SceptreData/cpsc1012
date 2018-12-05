@@ -24,11 +24,9 @@ namespace CPSC1012_AP_DavidBergeron
                 try
                 {
 
-                    tylenol.GetWeight();
-                    tylenol.GetAge();
-                    //tylenol.Weight = GetDouble("Enter the child's weight in pounds: ");
-                    //tylenol.Age = (int)GetDouble("Enter the child's age: ");
-
+                    GetWeight(tylenol);
+                    GetAge(tylenol);
+                    
                     Console.WriteLine($"Weight: {tylenol.Weight} lbs, Age: {tylenol.Age} years old.");
                     char yesNo = PromptYesNo("Is the above information about the children correct (Y/N): ");
 
@@ -43,17 +41,38 @@ namespace CPSC1012_AP_DavidBergeron
             Console.WriteLine(tylenol);
         }
 
-        static void RunRoomCarpet()
+        static void GetWeight(Acetaminophen ace)
         {
-            double roomLength = GetDouble("Enter the Room Length in Feet: ");
-            double roomWidth  = GetDouble("Enter the Room Width in Feet: ");
-            double carpetCost = GetDouble("Enter the Carpet Cost per Square Foot: ");
+            bool valid = false;
+            double weight;
+            do
+            {
+                Console.Write("Enter Weight: ");
+                valid = double.TryParse(Console.ReadLine(), out weight);
+                if (weight < 24 || weight > 95)
+                {
+                    valid = false;
+                    Console.WriteLine("Weight must be between 24-95.");
+                }
+            } while (!valid);
+            ace.Weight = weight;
+        }
 
-            RoomDimension rd = new RoomDimension(roomLength, roomWidth);
-            RoomCarpet carpet = new RoomCarpet(rd, carpetCost);
-
-            Console.WriteLine(carpet.DimensionString);
-            Console.WriteLine(carpet);
+        static void GetAge(Acetaminophen ace)
+        {
+            bool valid = false;
+            int age;
+            do
+            {
+                Console.Write("Enter Age: ");
+                valid = int.TryParse(Console.ReadLine(), out age);
+                if (age < 2 || age > 11)
+                {
+                    valid = false;
+                    Console.WriteLine("Age must be between 2-11.");
+                }
+            } while (!valid);
+            ace.Age = age;
         }
 
         static char PromptYesNo (string msg)
