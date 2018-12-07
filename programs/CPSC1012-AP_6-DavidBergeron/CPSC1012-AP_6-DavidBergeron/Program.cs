@@ -8,6 +8,10 @@ namespace CPSC1012_AP_6_DavidBergeron
         {
             var game = new TicTacToe();
             game.Draw();
+
+            game.Board[0, 0] = 'X';
+            game.Board[0, 2] = 'O';
+            game.Draw();
         }
 
         static double GetDouble(string msg)
