@@ -75,39 +75,7 @@ namespace CPSC1012_AP_DavidBergeron
             return dosage;
         }
 
-        public void GetWeight()
-        {
-            bool valid = false;
-            double weight;
-            do
-            {
-                Console.Write("Enter Weight: ");
-                valid = double.TryParse(Console.ReadLine(), out weight);
-                if (weight < 24 || weight > 95)
-                {
-                    valid = false;
-                    Console.WriteLine("Weight must be between 24-95.");
-                }
-            } while (!valid);
-            Weight = weight;
-        }
-
-        public void GetAge()
-        {
-            bool valid = false;
-            int age;
-            do
-            {
-                Console.Write("Enter Age: ");
-                valid = int.TryParse(Console.ReadLine(), out age);
-                if (age < 2 || age > 11)
-                {
-                    valid = false;
-                    Console.WriteLine("Age must be between 2-11.");
-                }
-            } while (!valid);
-            Age = age;
-        }
+        
 
         public override string ToString()
         {
