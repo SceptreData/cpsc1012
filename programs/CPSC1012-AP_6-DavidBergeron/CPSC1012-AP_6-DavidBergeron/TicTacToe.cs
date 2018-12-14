@@ -4,13 +4,10 @@ using System.Text;
 
 namespace CPSC1012_AP_6_DavidBergeron
 {
-    class TicTacToe
+    public class TicTacToe
     {
         private char[,] _board = new char[3,3];
-        private int _winningPlayer = 0;
-        private bool _gameOver = false;
-
-        private char _currentPlayer;
+        private char _currentPlayer = 'X';
 
         public char[,] Board
         {
@@ -51,12 +48,6 @@ namespace CPSC1012_AP_6_DavidBergeron
             }
         }
 
-        public void StartGame()
-        {
-            ClearBoard();
-            CurrentPlayer = 'X';
-        }
-
         public void ClearBoard()
         {
             for (int i = 0; i < 3; i++)
@@ -68,8 +59,11 @@ namespace CPSC1012_AP_6_DavidBergeron
             }
         }
 
-      
-
+        public void Reset()
+        {
+            ClearBoard();
+            CurrentPlayer = 'X';
+        }
 
         public bool CellIsOpen(int x, int y)
         {
@@ -103,47 +97,120 @@ namespace CPSC1012_AP_6_DavidBergeron
             }
         }
 
-        public bool PickCell(int pos)
+        public void PickCell()
         {
-
-            bool moveWasSuccess = false;
-            switch (pos)
+            bool validMove = false;
+            while (!validMove)
             {
-                case 1:
-                    SetCell(0, 0);
-                    break;
+                try
+                {
+                    int pos = (int)GetDouble($"Enter cell number (1-9) for player {CurrentPlayer}: ", 9);
+                    switch (pos)
+                    {
+                        case 1:
+                            SetCell(0, 0);
+                            break;
 
-                case 2:
-                    SetCell(0, 1);
-                    break;
-                case 3:
-                    SetCell(0, 2);
-                    break;
-                case 4:
-                    SetCell(1, 0);
-                    break;
-                case 5:
-                    SetCell(1, 1);
-                    break;
-                case 6:
-                    SetCell(1, 2);
-                    break;
-                case 7:
-                    SetCell(2, 0);
-                    break;
-                case 8:
-                    SetCell(2, 1);
-                    break;
-                case 9:
-                    SetCell(2, 2);
-                    break;
+                        case 2:
+                            SetCell(0, 1);
+                            break;
 
-                default:
-                    throw new Exception("Trying to access invalid Cell. Choose from (1-9)");
+                        case 3:
+                            SetCell(0, 2);
+                            break;
+
+                        case 4:
+                            SetCell(1, 0);
+                            break;
+
+                        case 5:
+                            SetCell(1, 1);
+                            break;
+
+                        case 6:
+                            SetCell(1, 2);
+                            break;
+
+                        case 7:
+                            SetCell(2, 0);
+                            break;
+
+                        case 8:
+                            SetCell(2, 1);
+                            break;
+
+                        case 9:
+                            SetCell(2, 2);
+                            break;
+
+                        default:
+                            throw new Exception("Trying to access invalid Cell. Choose from (1-9)");
+                    }
+                    validMove = true;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
             }
 
-            SwitchPlayer();
-            return true;
+        }
+
+        public bool HasWinner()
+        {
+            return (CheckRows(CurrentPlayer) || CheckColumns(CurrentPlayer) || CheckDiagonals(CurrentPlayer));
+        }
+
+        bool CheckRows(char player)
+        {
+            bool hasWon = false;
+            if (Board[0, 0] == player && Board[0,1] == player && Board[0,2] == player)
+            {
+                hasWon = true;
+            }
+            else if (Board[1, 0] == player && Board[1,1] == player && Board[1,2] == player)
+            {
+                hasWon = true;
+            }
+            else if (Board[1, 0] == player && Board[1,1] == player && Board[1,2] == player)
+            {
+                hasWon = true;
+            }
+            return hasWon;
+        }
+
+        bool CheckColumns(char player)
+        {
+            bool hasWon = false;
+            if (Board[0, 0] == player && Board[1,0] == player && Board[2,0] == player)
+            {
+                hasWon = true;
+            }
+            else if (Board[0, 1] == player && Board[1,1] == player && Board[2,1] == player)
+            {
+                hasWon = true;
+            }
+            else if (Board[0, 2] == player && Board[1,2] == player && Board[2,2] == player)
+            {
+                hasWon = true;
+            }
+            return hasWon;
+        }
+
+        bool CheckDiagonals(char player)
+        {
+            bool hasWon = false;
+            /* Bottom Left to Top Right */
+            if (Board[0, 0] == player && Board[1,1] == player && Board[2,2] == player)
+            {
+                hasWon = true;
+            }
+            /* Top Left to Bottom Right */
+            else if (Board[2, 0] == player && Board[1,1] == player && Board[0,2] == player)
+            {
+                hasWon = true;
+            }
+            return hasWon;
         }
 
         public void SwitchPlayer()
@@ -156,7 +223,7 @@ namespace CPSC1012_AP_6_DavidBergeron
 
         public void Draw()
         {
-            Console.WriteLine("-------------");
+            Console.WriteLine("\n-------------");
             Console.WriteLine($"| {Board[2, 0]} | {Board[2, 1]} | {Board[2,2]} |");
             Console.WriteLine("-------------");
             Console.WriteLine($"| {Board[1, 0]} | {Board[1, 1]} | {Board[1,2]} |");
@@ -164,5 +231,38 @@ namespace CPSC1012_AP_6_DavidBergeron
             Console.WriteLine($"| {Board[0, 0]} | {Board[0, 1]} | {Board[0,2]} |");
             Console.WriteLine("-------------");
         }
+
+        static double GetDouble(string msg)
+        {
+            try
+            {
+                Console.Write(msg);
+                double num = double.Parse(Console.ReadLine());
+                if (num <= 0)
+                {
+                    Console.WriteLine("Invalid Input: Enter a non-negative value.");
+                    return GetDouble(msg);
+                }
+                return num;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Invalid Input: Enter numbers. ");
+                return GetDouble(msg);
+            }
+
+        }
+
+        static double GetDouble(string msg, double max)
+        {
+            double num = GetDouble(msg);
+            while (num > max)
+            {
+                Console.WriteLine($"Error: Number entered is higher than Max value ({max})");
+                num = GetDouble(msg);
+            }
+            return num;
+        }
+
     }
 }

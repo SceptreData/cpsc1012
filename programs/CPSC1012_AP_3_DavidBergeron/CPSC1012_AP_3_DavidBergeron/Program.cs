@@ -38,9 +38,6 @@ namespace CPSC1012_AP_3_DavidBergeron
             // Check to see if the file exists.
             if (File.Exists(filePath))
             {
-                Console.WriteLine("File Exists!");
-
-                // Pray to god that the questions don't include unnecessary semi-colons.
                 LoadQuestions(filePath, triviaList);
             }
 
@@ -100,6 +97,7 @@ namespace CPSC1012_AP_3_DavidBergeron
             {
                 while ((line = sr.ReadLine()) != null)
                 {
+                    // Pray to god that the questions don't include unnecessary semi-colons.
                     string[] data = line.Split(';');
 
                     TriviaQuestion tq = new TriviaQuestion();

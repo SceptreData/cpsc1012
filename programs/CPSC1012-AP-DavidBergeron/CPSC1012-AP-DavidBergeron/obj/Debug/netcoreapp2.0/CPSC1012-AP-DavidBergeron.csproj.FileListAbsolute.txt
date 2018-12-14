@@ -9,3 +9,14 @@ c:\users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC10
 c:\users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.AssemblyInfo.cs
 c:\users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.dll
 c:\users\dbergeron2\Documents\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.pdb
+C:\Projects\edu\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\bin\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.deps.json
+C:\Projects\edu\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\bin\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.runtimeconfig.json
+C:\Projects\edu\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\bin\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.runtimeconfig.dev.json
+C:\Projects\edu\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\bin\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.dll
+C:\Projects\edu\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\bin\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.pdb
+C:\Projects\edu\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.csprojAssemblyReference.cache
+C:\Projects\edu\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.csproj.CoreCompileInputs.cache
+C:\Projects\edu\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.AssemblyInfoInputs.cache
+C:\Projects\edu\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.AssemblyInfo.cs
+C:\Projects\edu\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.dll
+C:\Projects\edu\cpsc1012\programs\CPSC1012-AP-DavidBergeron\CPSC1012-AP-DavidBergeron\obj\Debug\netcoreapp2.0\CPSC1012-AP-DavidBergeron.pdb

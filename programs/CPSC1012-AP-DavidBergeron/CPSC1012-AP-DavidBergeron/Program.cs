@@ -21,11 +21,6 @@ namespace CPSC1012_AP_DavidBergeron
     {
         static void Main(string[] args)
         {
-            RunAcetaminophen();
-        }
-
-        static void RunAcetaminophen()
-        {
             Console.WriteLine("********************");
             Console.WriteLine("*  Tylenol Dosage  *");
             Console.WriteLine("********************");
@@ -37,10 +32,9 @@ namespace CPSC1012_AP_DavidBergeron
             {
                 try
                 {
-
                     GetWeight(tylenol);
                     GetAge(tylenol);
-                    
+
                     Console.WriteLine($"Weight: {tylenol.Weight} lbs, Age: {tylenol.Age} years old.");
                     char yesNo = PromptYesNo("Is the above information about the children correct (Y/N): ");
 

@@ -61,30 +61,111 @@ namespace CPSC1012_AP4_DavidBergeron
             playerOneQuestions = triviaList.GetRange(0, numRounds);
             playerTwoQuestions = triviaList.GetRange(numRounds, numRounds);
 
-            Console.WriteLine("***************");
-            Console.WriteLine("* Trivia Game *");
-            Console.WriteLine("***************");
-            Console.WriteLine($"There are {triviaList.Count} questions in the question bank. Each player will answer {numRounds} questions");
-
             int playerOneScore = 0;
             int playerTwoScore = 0;
-            int curRound = 1;
-
+           
             while (programIsRunning)
             {
-                // Ask Player One Question.
+                Console.WriteLine("***************");
+                Console.WriteLine("* Trivia Game *");
+                Console.WriteLine("***************");
+                Console.WriteLine($"There are {triviaList.Count} questions in the question bank. Each player will answer {numRounds} questions");
+
+                int curRound = 1;
+                // Ask Player One Questions (?)
+                while (curRound <= numRounds)
+                {
+                    Console.WriteLine("\n\nPlayer 1 Question");
+                    Console.WriteLine("_________________");
+                    TriviaQuestion tq = playerOneQuestions[curRound - 1];
+                    DisplayQuestion(tq);
+                    int choice = GetChoice();
+
+                    if (choice == tq.CorrectAnswer)
+                    {
+                        playerOneScore++;
+                    }
+                    curRound++;
+                }
+
+                curRound = 1; // Reset current round (since players do not alternate).
 
                 // Ask Player Two Question
-
-                // Advance the game.
-                curRound++;
-                if (curRound > numRounds)
+                while (curRound <= numRounds)
                 {
-                    programIsRunning = false;
+                    Console.WriteLine("\n\nPlayer 2 Question");
+                    Console.WriteLine("_________________");
+                    TriviaQuestion tq = playerTwoQuestions[curRound - 1];
+                    DisplayQuestion(tq);
+                    int choice = GetChoice();
+
+                    if (choice == tq.CorrectAnswer)
+                    {
+                        playerTwoScore++;
+                    }
+                    curRound++;
                 }
+                programIsRunning = false;
             }
 
             // Display Results.
+            Console.WriteLine("\n\nFINAL SCORE: ");
+            Console.WriteLine($"\tPlayer 1: {playerOneScore}");
+            Console.WriteLine($"\tPlayer 2: {playerTwoScore}");
+            if (playerOneScore == playerTwoScore)
+            {
+                Console.WriteLine("\nTie game! You guys are both so good at this!");
+            } else
+            {
+                if (playerOneScore > playerTwoScore)
+                {
+                    Console.WriteLine("\nCongratulations PLAYER ONE! You WIN!!!");
+                } else
+                {
+                    Console.WriteLine("\nCongratulations PLAYER TWO! You WIN!!!");
+                }
+            }
+        }
+
+        static void DisplayQuestion(TriviaQuestion tq)
+        {
+            Console.WriteLine(tq.Question);
+            Console.WriteLine($"a. {tq.Answers[0]}");
+            Console.WriteLine($"b. {tq.Answers[1]}");
+            Console.WriteLine($"c. {tq.Answers[2]}");
+            Console.WriteLine($"d. {tq.Answers[3]}");
+        }
+
+        static int GetChoice()
+        {
+            int retVal = -1;
+            bool validInput = false;
+            while (!validInput)
+            {
+                try
+                {
+                    Console.Write("Your Answer: ");
+                    char c = Console.ReadKey().KeyChar;
+                    c = char.ToUpper(c);
+
+                    if (c == 'A' || c == 'B' || c == 'C' || c == 'D')
+                    {
+                        if (c == 'A') retVal = 1;
+                        else if (c == 'B') retVal = 2;
+                        else if (c == 'C') retVal = 3;
+                        else retVal = 4;
+                    }
+                    else
+                    {
+                        throw new Exception("Error: Answer A, B, C or D.");
+                    }
+                    validInput = true;
+                } catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+            return retVal;
         }
 
         static void LoadQuestions(string filePath, List<TriviaQuestion> triviaList)

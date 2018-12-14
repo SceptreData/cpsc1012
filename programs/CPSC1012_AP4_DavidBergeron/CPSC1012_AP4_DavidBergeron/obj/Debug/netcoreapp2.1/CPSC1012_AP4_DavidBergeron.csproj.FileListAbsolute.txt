@@ -1,0 +1,11 @@
+C:\Projects\edu\cpsc1012\programs\CPSC1012_AP4_DavidBergeron\CPSC1012_AP4_DavidBergeron\bin\Debug\netcoreapp2.1\CPSC1012_AP4_DavidBergeron.deps.json
+C:\Projects\edu\cpsc1012\programs\CPSC1012_AP4_DavidBergeron\CPSC1012_AP4_DavidBergeron\bin\Debug\netcoreapp2.1\CPSC1012_AP4_DavidBergeron.runtimeconfig.json
+C:\Projects\edu\cpsc1012\programs\CPSC1012_AP4_DavidBergeron\CPSC1012_AP4_DavidBergeron\bin\Debug\netcoreapp2.1\CPSC1012_AP4_DavidBergeron.runtimeconfig.dev.json
+C:\Projects\edu\cpsc1012\programs\CPSC1012_AP4_DavidBergeron\CPSC1012_AP4_DavidBergeron\bin\Debug\netcoreapp2.1\CPSC1012_AP4_DavidBergeron.dll
+C:\Projects\edu\cpsc1012\programs\CPSC1012_AP4_DavidBergeron\CPSC1012_AP4_DavidBergeron\bin\Debug\netcoreapp2.1\CPSC1012_AP4_DavidBergeron.pdb
+C:\Projects\edu\cpsc1012\programs\CPSC1012_AP4_DavidBergeron\CPSC1012_AP4_DavidBergeron\obj\Debug\netcoreapp2.1\CPSC1012_AP4_DavidBergeron.csprojAssemblyReference.cache
+C:\Projects\edu\cpsc1012\programs\CPSC1012_AP4_DavidBergeron\CPSC1012_AP4_DavidBergeron\obj\Debug\netcoreapp2.1\CPSC1012_AP4_DavidBergeron.csproj.CoreCompileInputs.cache
+C:\Projects\edu\cpsc1012\programs\CPSC1012_AP4_DavidBergeron\CPSC1012_AP4_DavidBergeron\obj\Debug\netcoreapp2.1\CPSC1012_AP4_DavidBergeron.AssemblyInfoInputs.cache
+C:\Projects\edu\cpsc1012\programs\CPSC1012_AP4_DavidBergeron\CPSC1012_AP4_DavidBergeron\obj\Debug\netcoreapp2.1\CPSC1012_AP4_DavidBergeron.AssemblyInfo.cs
+C:\Projects\edu\cpsc1012\programs\CPSC1012_AP4_DavidBergeron\CPSC1012_AP4_DavidBergeron\obj\Debug\netcoreapp2.1\CPSC1012_AP4_DavidBergeron.dll
+C:\Projects\edu\cpsc1012\programs\CPSC1012_AP4_DavidBergeron\CPSC1012_AP4_DavidBergeron\obj\Debug\netcoreapp2.1\CPSC1012_AP4_DavidBergeron.pdb
