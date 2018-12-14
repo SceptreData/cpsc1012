@@ -21,10 +21,7 @@ namespace CPSC1012_AP_2_DavidBergeron
             set => mWidth = value;
         }
 
-        public RoomDimension()
-        {
-
-        }
+        public RoomDimension() { }
 
         public RoomDimension(double length, double width)
         {

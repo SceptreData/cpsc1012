@@ -1,7 +1,24 @@
 ﻿using System;
 
 namespace CPSC1012_AP_2_DavidBergeron
-{
+{/*
+    * Purpose:  To calculate the total cost to carpet a room.
+    * 
+    * Input: 
+    *    - Room Length
+    *    - Room Width
+    *    - Cost per Square Foot
+    * 
+    * Process:
+    *      - Room Area
+    *      - Total Cost (Room Area * Cost Per Square Foot)
+    *
+    * Output:
+    *    - Total cost to carpet the room.
+    *         
+    * Written By: David Bergeron
+    * Date Modified: 2018.12.06
+    * */
     class Program
     {
         static void Main(string[] args)

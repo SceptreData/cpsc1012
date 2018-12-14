@@ -1,13 +1,27 @@
 ﻿using System;
 
 namespace CPSC1012_AP_DavidBergeron
-{
+{/*
+    * Purpose:  To Calculate the Dosage of Acetaminophen Required for a Small Child.
+    * 
+    * Input: 
+    *    - Child Weight 
+    *    - Child Age
+    * 
+    * Process:
+    *      - Compare child's weight and age to our dosage table
+    *
+    * Output:
+    *    - Correct amount of Acetaminophen required.
+    *         
+    * Written By: David Bergeron
+    * Date Modified: 2018.12.06
+    * */
     class Program
     {
         static void Main(string[] args)
         {
             RunAcetaminophen();
-            //RunRoomCarpet();
         }
 
         static void RunAcetaminophen()
